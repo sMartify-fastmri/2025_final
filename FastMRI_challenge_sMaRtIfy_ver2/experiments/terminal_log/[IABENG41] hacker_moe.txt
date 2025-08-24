@@ -1,0 +1,581 @@
+root@workspace-1eg7l61bhfdu-0:~/FastMRI_challenge_sMaRtIfy_ver2# sh hacker_moe.sh
+Current cuda device:  0
+[Calling classifier...] Current cuda device:  0
+[Training classifier...] Current cuda device:  0
+[Training classifier...] Epoch 0 | Training loss: 0.06927230604841363
+[Training classifier for val set...] Epoch 0 | Training loss: 0.01729395896672245
+Model saved: dummy.pt in ../result/classifier/checkpoints
+Starting from the very first of MoE training... validation loss log is empty.
+Epoch #30 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 30/ 60] Iter = [   0/4937] Loss = 0.08137 (agg) = 0.08137 | Time = 2.3260s
+Epoch = [ 30/ 60] Iter = [ 500/4937] Loss = 0.00443 (agg) = 0.02438 | Time = 1251.6426s
+Epoch = [ 30/ 60] Iter = [1000/4937] Loss = 0.00631 (agg) = 0.02515 | Time = 1247.9622s
+Epoch = [ 30/ 60] Iter = [1500/4937] Loss = 0.01696 (agg) = 0.02428 | Time = 1253.4478s
+Epoch = [ 30/ 60] Iter = [2000/4937] Loss = 0.00504 (agg) = 0.02437 | Time = 1254.9370s
+Epoch = [ 30/ 60] Iter = [2500/4937] Loss = 0.06238 (agg) = 0.02419 | Time = 1233.1277s
+Epoch = [ 30/ 60] Iter = [3000/4937] Loss = 0.00000 (agg) = 0.02423 | Time = 1246.8772s
+Epoch = [ 30/ 60] Iter = [3500/4937] Loss = 0.08385 (agg) = 0.02416 | Time = 1251.7902s
+Epoch = [ 30/ 60] Iter = [4000/4937] Loss = 0.10890 (agg) = 0.02430 | Time = 1235.9359s
+Epoch = [ 30/ 60] Iter = [4500/4937] Loss = 0.04065 (agg) = 0.02420 | Time = 1249.3900s
+Epoch = [ 30/ 60] Iter = [   0/ 863] Loss = 0.01089 (agg) = 0.01089 | Time = 2.5136s
+Epoch = [ 30/ 60] Iter = [ 500/ 863] Loss = 0.00560 (agg) = 0.02318 | Time = 1284.9005s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch31in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch31in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch31in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch31in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  30/  60] TrainLoss = 0.02403 ValLoss = 0.02349 TrainTime = 12332.8495s ValTime = 2213.6380s
+Epoch #31 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 31/ 60] Iter = [   0/4937] Loss = 0.03332 (agg) = 0.03332 | Time = 2.1196s
+Epoch = [ 31/ 60] Iter = [ 500/4937] Loss = 0.00698 (agg) = 0.02513 | Time = 1236.0291s
+Epoch = [ 31/ 60] Iter = [1000/4937] Loss = 0.02409 (agg) = 0.02445 | Time = 1237.5476s
+Epoch = [ 31/ 60] Iter = [1500/4937] Loss = 0.00285 (agg) = 0.02472 | Time = 1249.4853s
+Epoch = [ 31/ 60] Iter = [2000/4937] Loss = 0.00756 (agg) = 0.02422 | Time = 1256.8598s
+Epoch = [ 31/ 60] Iter = [2500/4937] Loss = 0.00600 (agg) = 0.02425 | Time = 1253.8947s
+Epoch = [ 31/ 60] Iter = [3000/4937] Loss = 0.01065 (agg) = 0.02415 | Time = 1257.3378s
+Epoch = [ 31/ 60] Iter = [3500/4937] Loss = 0.01504 (agg) = 0.02436 | Time = 1249.4896s
+Epoch = [ 31/ 60] Iter = [4000/4937] Loss = 0.00239 (agg) = 0.02445 | Time = 1260.6523s
+Epoch = [ 31/ 60] Iter = [4500/4937] Loss = 0.00683 (agg) = 0.02438 | Time = 1247.1741s
+Epoch = [ 31/ 60] Iter = [   0/ 863] Loss = 0.01228 (agg) = 0.01228 | Time = 2.7485s
+Epoch = [ 31/ 60] Iter = [ 500/ 863] Loss = 0.00650 (agg) = 0.02206 | Time = 1279.2319s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch32in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch32in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch32in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch32in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  31/  60] TrainLoss = 0.02426 ValLoss = 0.02336 TrainTime = 12345.3430s ValTime = 2214.1584s
+Epoch #32 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 32/ 60] Iter = [   0/4937] Loss = 0.03019 (agg) = 0.03019 | Time = 2.1248s
+Epoch = [ 32/ 60] Iter = [ 500/4937] Loss = 0.04489 (agg) = 0.02336 | Time = 1251.0311s
+Epoch = [ 32/ 60] Iter = [1000/4937] Loss = 0.00248 (agg) = 0.02294 | Time = 1251.5986s
+Epoch = [ 32/ 60] Iter = [1500/4937] Loss = 0.00609 (agg) = 0.02392 | Time = 1242.5481s
+Epoch = [ 32/ 60] Iter = [2000/4937] Loss = 0.01503 (agg) = 0.02383 | Time = 1258.2025s
+Epoch = [ 32/ 60] Iter = [2500/4937] Loss = 0.01197 (agg) = 0.02420 | Time = 1248.7163s
+Epoch = [ 32/ 60] Iter = [3000/4937] Loss = 0.01231 (agg) = 0.02445 | Time = 1253.3337s
+Epoch = [ 32/ 60] Iter = [3500/4937] Loss = 0.00450 (agg) = 0.02474 | Time = 1251.4310s
+Epoch = [ 32/ 60] Iter = [4000/4937] Loss = 0.00316 (agg) = 0.02437 | Time = 1268.7309s
+Epoch = [ 32/ 60] Iter = [4500/4937] Loss = 0.02689 (agg) = 0.02441 | Time = 1248.8287s
+Epoch = [ 32/ 60] Iter = [   0/ 863] Loss = 0.02100 (agg) = 0.02100 | Time = 2.2344s
+Epoch = [ 32/ 60] Iter = [ 500/ 863] Loss = 0.04284 (agg) = 0.02367 | Time = 1278.4410s
+/usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch33in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch33in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch33in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch33in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  32/  60] TrainLoss = 0.02428 ValLoss = 0.02349 TrainTime = 12344.3112s ValTime = 2212.5730s
+Epoch #33 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 33/ 60] Iter = [   0/4937] Loss = 0.02042 (agg) = 0.02042 | Time = 2.2933s
+Epoch = [ 33/ 60] Iter = [ 500/4937] Loss = 0.00879 (agg) = 0.02566 | Time = 1245.5600s
+Epoch = [ 33/ 60] Iter = [1000/4937] Loss = 0.07861 (agg) = 0.02468 | Time = 1252.1985s
+Epoch = [ 33/ 60] Iter = [1500/4937] Loss = 0.00411 (agg) = 0.02470 | Time = 1257.9704s
+Epoch = [ 33/ 60] Iter = [2000/4937] Loss = 0.09323 (agg) = 0.02456 | Time = 1233.7445s
+Epoch = [ 33/ 60] Iter = [2500/4937] Loss = 0.08380 (agg) = 0.02452 | Time = 1258.8745s
+Epoch = [ 33/ 60] Iter = [3000/4937] Loss = 0.00770 (agg) = 0.02450 | Time = 1248.5635s
+Epoch = [ 33/ 60] Iter = [3500/4937] Loss = 0.01255 (agg) = 0.02460 | Time = 1249.5058s
+Epoch = [ 33/ 60] Iter = [4000/4937] Loss = 0.00066 (agg) = 0.02457 | Time = 1250.9671s
+Epoch = [ 33/ 60] Iter = [4500/4937] Loss = 0.00795 (agg) = 0.02461 | Time = 1252.6076s
+Epoch = [ 33/ 60] Iter = [   0/ 863] Loss = 0.01819 (agg) = 0.01819 | Time = 2.7522s
+Epoch = [ 33/ 60] Iter = [ 500/ 863] Loss = 0.00059 (agg) = 0.02365 | Time = 1273.4223s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch34in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch34in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch34in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch34in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  33/  60] TrainLoss = 0.02458 ValLoss = 0.02352 TrainTime = 12339.4762s ValTime = 2217.9241s
+Epoch #34 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 34/ 60] Iter = [   0/4937] Loss = 0.00564 (agg) = 0.00564 | Time = 2.7117s
+Epoch = [ 34/ 60] Iter = [ 500/4937] Loss = 0.00609 (agg) = 0.02068 | Time = 1286.8158s
+Epoch = [ 34/ 60] Iter = [1000/4937] Loss = 0.02736 (agg) = 0.02238 | Time = 1284.2817s
+Epoch = [ 34/ 60] Iter = [1500/4937] Loss = 0.01645 (agg) = 0.02198 | Time = 1281.7354s
+Epoch = [ 34/ 60] Iter = [2000/4937] Loss = 0.00417 (agg) = 0.02170 | Time = 1283.5563s
+Epoch = [ 34/ 60] Iter = [2500/4937] Loss = 0.03092 (agg) = 0.02152 | Time = 1295.7603s
+Epoch = [ 34/ 60] Iter = [3000/4937] Loss = 0.00616 (agg) = 0.02144 | Time = 1285.5453s
+Epoch = [ 34/ 60] Iter = [3500/4937] Loss = 0.00318 (agg) = 0.02181 | Time = 1256.2512s
+Epoch = [ 34/ 60] Iter = [4000/4937] Loss = 0.02520 (agg) = 0.02158 | Time = 1312.6868s
+Epoch = [ 34/ 60] Iter = [4500/4937] Loss = 0.00865 (agg) = 0.02140 | Time = 1297.3918s
+Epoch = [ 34/ 60] Iter = [   0/ 863] Loss = 0.01434 (agg) = 0.01434 | Time = 2.2520s
+Epoch = [ 34/ 60] Iter = [ 500/ 863] Loss = 0.00603 (agg) = 0.02141 | Time = 1313.3422s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch35in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch35in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch35in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch35in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  34/  60] TrainLoss = 0.02148 ValLoss = 0.02051 TrainTime = 12717.1467s ValTime = 2280.5150s
+Epoch #35 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 35/ 60] Iter = [   0/4937] Loss = 0.01083 (agg) = 0.01083 | Time = 2.8246s
+Epoch = [ 35/ 60] Iter = [ 500/4937] Loss = 0.00767 (agg) = 0.01939 | Time = 1282.7220s
+Epoch = [ 35/ 60] Iter = [1000/4937] Loss = 0.01141 (agg) = 0.01952 | Time = 1306.4874s
+Epoch = [ 35/ 60] Iter = [1500/4937] Loss = 0.10759 (agg) = 0.01949 | Time = 1289.7508s
+Epoch = [ 35/ 60] Iter = [2000/4937] Loss = 0.01168 (agg) = 0.01980 | Time = 1273.8616s
+Epoch = [ 35/ 60] Iter = [2500/4937] Loss = 0.00239 (agg) = 0.01953 | Time = 1298.3669s
+Epoch = [ 35/ 60] Iter = [3000/4937] Loss = 0.02289 (agg) = 0.01945 | Time = 1311.4713s
+Epoch = [ 35/ 60] Iter = [3500/4937] Loss = 0.00094 (agg) = 0.01931 | Time = 1293.2431s
+Epoch = [ 35/ 60] Iter = [4000/4937] Loss = 0.00154 (agg) = 0.01932 | Time = 1277.8513s
+Epoch = [ 35/ 60] Iter = [4500/4937] Loss = 0.04687 (agg) = 0.01933 | Time = 1296.6692s
+Epoch = [ 35/ 60] Iter = [   0/ 863] Loss = 0.00071 (agg) = 0.00071 | Time = 3.5560s
+Epoch = [ 35/ 60] Iter = [ 500/ 863] Loss = 0.00950 (agg) = 0.01777 | Time = 1329.8516s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch36in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch36in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch36in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch36in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  35/  60] TrainLoss = 0.01939 ValLoss = 0.01858 TrainTime = 12762.8220s ValTime = 2289.8768s
+Epoch #36 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 36/ 60] Iter = [   0/4937] Loss = 0.01044 (agg) = 0.01044 | Time = 2.6374s
+Epoch = [ 36/ 60] Iter = [ 500/4937] Loss = 0.01433 (agg) = 0.01674 | Time = 1294.5071s
+Epoch = [ 36/ 60] Iter = [1000/4937] Loss = 0.00514 (agg) = 0.01721 | Time = 1290.4330s
+Epoch = [ 36/ 60] Iter = [1500/4937] Loss = 0.00414 (agg) = 0.01708 | Time = 1303.8069s
+Epoch = [ 36/ 60] Iter = [2000/4937] Loss = 0.00268 (agg) = 0.01755 | Time = 1276.3354s
+Epoch = [ 36/ 60] Iter = [2500/4937] Loss = 0.00630 (agg) = 0.01797 | Time = 1292.5214s
+Epoch = [ 36/ 60] Iter = [3000/4937] Loss = 0.03524 (agg) = 0.01781 | Time = 1319.3956s
+Epoch = [ 36/ 60] Iter = [3500/4937] Loss = 0.06788 (agg) = 0.01783 | Time = 1276.0299s
+Epoch = [ 36/ 60] Iter = [4000/4937] Loss = 0.00604 (agg) = 0.01796 | Time = 1302.7548s
+Epoch = [ 36/ 60] Iter = [4500/4937] Loss = 0.01914 (agg) = 0.01817 | Time = 1284.9347s
+Epoch = [ 36/ 60] Iter = [   0/ 863] Loss = 0.00559 (agg) = 0.00559 | Time = 3.4116s
+Epoch = [ 36/ 60] Iter = [ 500/ 863] Loss = 0.00611 (agg) = 0.01846 | Time = 1322.4124s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch37in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch37in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch37in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch37in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  36/  60] TrainLoss = 0.01813 ValLoss = 0.01755 TrainTime = 12789.2188s ValTime = 2295.3336s
+Epoch #37 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 37/ 60] Iter = [   0/4937] Loss = 0.00899 (agg) = 0.00899 | Time = 3.5709s
+Epoch = [ 37/ 60] Iter = [ 500/4937] Loss = 0.03403 (agg) = 0.01749 | Time = 1299.0084s
+Epoch = [ 37/ 60] Iter = [1000/4937] Loss = 0.00009 (agg) = 0.01765 | Time = 1282.6528s
+Epoch = [ 37/ 60] Iter = [1500/4937] Loss = 0.01334 (agg) = 0.01771 | Time = 1283.9796s
+Epoch = [ 37/ 60] Iter = [2000/4937] Loss = 0.00343 (agg) = 0.01789 | Time = 1285.0912s
+Epoch = [ 37/ 60] Iter = [2500/4937] Loss = 0.00297 (agg) = 0.01788 | Time = 1308.6910s
+Epoch = [ 37/ 60] Iter = [3000/4937] Loss = 0.00673 (agg) = 0.01782 | Time = 1300.8727s
+Epoch = [ 37/ 60] Iter = [3500/4937] Loss = 0.00486 (agg) = 0.01777 | Time = 1302.7652s
+Epoch = [ 37/ 60] Iter = [4000/4937] Loss = 0.00707 (agg) = 0.01754 | Time = 1315.6403s
+Epoch = [ 37/ 60] Iter = [4500/4937] Loss = 0.00615 (agg) = 0.01740 | Time = 1288.3108s
+Epoch = [ 37/ 60] Iter = [   0/ 863] Loss = 0.02144 (agg) = 0.02144 | Time = 2.2327s
+Epoch = [ 37/ 60] Iter = [ 500/ 863] Loss = 0.00298 (agg) = 0.01589 | Time = 1333.1484s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch38in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch38in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch38in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch38in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  37/  60] TrainLoss = 0.01744 ValLoss = 0.0166 TrainTime = 12795.4496s ValTime = 2293.5061s
+Epoch #38 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 38/ 60] Iter = [   0/4937] Loss = 0.03760 (agg) = 0.03760 | Time = 2.2281s
+Epoch = [ 38/ 60] Iter = [ 500/4937] Loss = 0.06931 (agg) = 0.01808 | Time = 1306.1675s
+Epoch = [ 38/ 60] Iter = [1000/4937] Loss = 0.03583 (agg) = 0.01711 | Time = 1283.3776s
+Epoch = [ 38/ 60] Iter = [1500/4937] Loss = 0.01110 (agg) = 0.01746 | Time = 1276.9508s
+Epoch = [ 38/ 60] Iter = [2000/4937] Loss = 0.00565 (agg) = 0.01677 | Time = 1317.5005s
+Epoch = [ 38/ 60] Iter = [2500/4937] Loss = 0.00475 (agg) = 0.01722 | Time = 1287.9869s
+Epoch = [ 38/ 60] Iter = [3000/4937] Loss = 0.00386 (agg) = 0.01724 | Time = 1293.3945s
+Epoch = [ 38/ 60] Iter = [3500/4937] Loss = 0.00644 (agg) = 0.01703 | Time = 1305.4924s
+Epoch = [ 38/ 60] Iter = [4000/4937] Loss = 0.03412 (agg) = 0.01713 | Time = 1308.6201s
+Epoch = [ 38/ 60] Iter = [4500/4937] Loss = 0.04956 (agg) = 0.01711 | Time = 1293.1113s
+Epoch = [ 38/ 60] Iter = [   0/ 863] Loss = 0.00207 (agg) = 0.00207 | Time = 3.3551s
+Epoch = [ 38/ 60] Iter = [ 500/ 863] Loss = 0.00496 (agg) = 0.01728 | Time = 1325.9012s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch39in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch39in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch39in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch39in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  38/  60] TrainLoss = 0.01715 ValLoss = 0.01682 TrainTime = 12813.8345s ValTime = 2295.8876s
+Epoch #39 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 39/ 60] Iter = [   0/4937] Loss = 0.00683 (agg) = 0.00683 | Time = 2.1161s
+Epoch = [ 39/ 60] Iter = [ 500/4937] Loss = 0.00951 (agg) = 0.01635 | Time = 1314.2776s
+Epoch = [ 39/ 60] Iter = [1000/4937] Loss = 0.00480 (agg) = 0.01710 | Time = 1297.4777s
+Epoch = [ 39/ 60] Iter = [1500/4937] Loss = 0.00435 (agg) = 0.01731 | Time = 1288.5818s
+Epoch = [ 39/ 60] Iter = [2000/4937] Loss = 0.00637 (agg) = 0.01774 | Time = 1283.0768s
+Epoch = [ 39/ 60] Iter = [2500/4937] Loss = 0.01328 (agg) = 0.01740 | Time = 1293.5570s
+Epoch = [ 39/ 60] Iter = [3000/4937] Loss = 0.00806 (agg) = 0.01720 | Time = 1281.8434s
+Epoch = [ 39/ 60] Iter = [3500/4937] Loss = 0.04771 (agg) = 0.01692 | Time = 1295.4881s
+Epoch = [ 39/ 60] Iter = [4000/4937] Loss = 0.00968 (agg) = 0.01674 | Time = 1315.8767s
+Epoch = [ 39/ 60] Iter = [4500/4937] Loss = 0.08070 (agg) = 0.01679 | Time = 1305.0770s
+Epoch = [ 39/ 60] Iter = [   0/ 863] Loss = 0.00229 (agg) = 0.00229 | Time = 3.5430s
+Epoch = [ 39/ 60] Iter = [ 500/ 863] Loss = 0.00404 (agg) = 0.01611 | Time = 1322.1489s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch40in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch40in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch40in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch40in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  39/  60] TrainLoss = 0.01677 ValLoss = 0.0158 TrainTime = 12807.4677s ValTime = 2297.1227s
+Epoch #40 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 40/ 60] Iter = [   0/4937] Loss = 0.04961 (agg) = 0.04961 | Time = 2.2331s
+Epoch = [ 40/ 60] Iter = [ 500/4937] Loss = 0.03738 (agg) = 0.01751 | Time = 1292.4114s
+Epoch = [ 40/ 60] Iter = [1000/4937] Loss = 0.01039 (agg) = 0.01759 | Time = 1297.4249s
+Epoch = [ 40/ 60] Iter = [1500/4937] Loss = 0.04245 (agg) = 0.01643 | Time = 1328.0832s
+Epoch = [ 40/ 60] Iter = [2000/4937] Loss = 0.01273 (agg) = 0.01641 | Time = 1324.0227s
+Epoch = [ 40/ 60] Iter = [2500/4937] Loss = 0.01149 (agg) = 0.01645 | Time = 1280.8196s
+Epoch = [ 40/ 60] Iter = [3000/4937] Loss = 0.00432 (agg) = 0.01643 | Time = 1294.4083s
+Epoch = [ 40/ 60] Iter = [3500/4937] Loss = 0.00929 (agg) = 0.01639 | Time = 1293.0318s
+Epoch = [ 40/ 60] Iter = [4000/4937] Loss = 0.05399 (agg) = 0.01638 | Time = 1289.4824s
+Epoch = [ 40/ 60] Iter = [4500/4937] Loss = 0.01064 (agg) = 0.01628 | Time = 1292.1412s
+Epoch = [ 40/ 60] Iter = [   0/ 863] Loss = 0.01977 (agg) = 0.01977 | Time = 2.3244s
+Epoch = [ 40/ 60] Iter = [ 500/ 863] Loss = 0.01414 (agg) = 0.01600 | Time = 1329.2636s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch41in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch41in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch41in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch41in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  40/  60] TrainLoss = 0.01628 ValLoss = 0.01596 TrainTime = 12808.6633s ValTime = 2297.9639s
+Epoch #41 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 41/ 60] Iter = [   0/4937] Loss = 0.02430 (agg) = 0.02430 | Time = 2.3467s
+Epoch = [ 41/ 60] Iter = [ 500/4937] Loss = 0.01556 (agg) = 0.01509 | Time = 1311.4263s
+Epoch = [ 41/ 60] Iter = [1000/4937] Loss = 0.00646 (agg) = 0.01621 | Time = 1280.7505s
+Epoch = [ 41/ 60] Iter = [1500/4937] Loss = 0.02031 (agg) = 0.01622 | Time = 1279.0154s
+Epoch = [ 41/ 60] Iter = [2000/4937] Loss = 0.03450 (agg) = 0.01622 | Time = 1288.9088s
+Epoch = [ 41/ 60] Iter = [2500/4937] Loss = 0.01076 (agg) = 0.01636 | Time = 1288.1107s
+Epoch = [ 41/ 60] Iter = [3000/4937] Loss = 0.00601 (agg) = 0.01644 | Time = 1306.5033s
+Epoch = [ 41/ 60] Iter = [3500/4937] Loss = 0.03206 (agg) = 0.01635 | Time = 1308.6764s
+Epoch = [ 41/ 60] Iter = [4000/4937] Loss = 0.00488 (agg) = 0.01625 | Time = 1312.1639s
+Epoch = [ 41/ 60] Iter = [4500/4937] Loss = 0.00501 (agg) = 0.01621 | Time = 1309.2431s
+Epoch = [ 41/ 60] Iter = [   0/ 863] Loss = 0.01297 (agg) = 0.01297 | Time = 2.2400s
+Epoch = [ 41/ 60] Iter = [ 500/ 863] Loss = 0.01127 (agg) = 0.01509 | Time = 1341.3688s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch42in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch42in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch42in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch42in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  41/  60] TrainLoss = 0.01607 ValLoss = 0.01502 TrainTime = 12812.4546s ValTime = 2297.2902s
+Epoch #42 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 42/ 60] Iter = [   0/4937] Loss = 0.01022 (agg) = 0.01022 | Time = 2.2464s
+Epoch = [ 42/ 60] Iter = [ 500/4937] Loss = 0.00425 (agg) = 0.01561 | Time = 1298.6428s
+Epoch = [ 42/ 60] Iter = [1000/4937] Loss = 0.00089 (agg) = 0.01598 | Time = 1291.6164s
+Epoch = [ 42/ 60] Iter = [1500/4937] Loss = 0.04324 (agg) = 0.01599 | Time = 1293.2679s
+Epoch = [ 42/ 60] Iter = [2000/4937] Loss = 0.00510 (agg) = 0.01599 | Time = 1296.2830s
+Epoch = [ 42/ 60] Iter = [2500/4937] Loss = 0.00632 (agg) = 0.01589 | Time = 1311.9752s
+Epoch = [ 42/ 60] Iter = [3000/4937] Loss = 0.04751 (agg) = 0.01601 | Time = 1290.6024s
+Epoch = [ 42/ 60] Iter = [3500/4937] Loss = 0.00715 (agg) = 0.01603 | Time = 1293.4739s
+Epoch = [ 42/ 60] Iter = [4000/4937] Loss = 0.00365 (agg) = 0.01613 | Time = 1303.2736s
+Epoch = [ 42/ 60] Iter = [4500/4937] Loss = 0.01844 (agg) = 0.01601 | Time = 1303.3400s
+Epoch = [ 42/ 60] Iter = [   0/ 863] Loss = 0.00418 (agg) = 0.00418 | Time = 2.6169s
+Epoch = [ 42/ 60] Iter = [ 500/ 863] Loss = 0.07347 (agg) = 0.01510 | Time = 1340.3211s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch43in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch43in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch43in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch43in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  42/  60] TrainLoss = 0.01607 ValLoss = 0.01533 TrainTime = 12815.9404s ValTime = 2298.0900s
+Epoch #43 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 43/ 60] Iter = [   0/4937] Loss = 0.00517 (agg) = 0.00517 | Time = 2.3811s
+Epoch = [ 43/ 60] Iter = [ 500/4937] Loss = 0.00873 (agg) = 0.01662 | Time = 1301.6255s
+Epoch = [ 43/ 60] Iter = [1000/4937] Loss = 0.00074 (agg) = 0.01721 | Time = 1310.1245s
+Epoch = [ 43/ 60] Iter = [1500/4937] Loss = 0.01678 (agg) = 0.01663 | Time = 1305.3175s
+Epoch = [ 43/ 60] Iter = [2000/4937] Loss = 0.00845 (agg) = 0.01678 | Time = 1277.7115s
+Epoch = [ 43/ 60] Iter = [2500/4937] Loss = 0.00620 (agg) = 0.01660 | Time = 1314.9194s
+Epoch = [ 43/ 60] Iter = [3000/4937] Loss = 0.01122 (agg) = 0.01646 | Time = 1291.0360s
+Epoch = [ 43/ 60] Iter = [3500/4937] Loss = 0.01104 (agg) = 0.01613 | Time = 1306.1612s
+Epoch = [ 43/ 60] Iter = [4000/4937] Loss = 0.01081 (agg) = 0.01608 | Time = 1295.6029s
+Epoch = [ 43/ 60] Iter = [4500/4937] Loss = 0.00720 (agg) = 0.01613 | Time = 1297.7547s
+Epoch = [ 43/ 60] Iter = [   0/ 863] Loss = 0.02246 (agg) = 0.02246 | Time = 2.1918s
+Epoch = [ 43/ 60] Iter = [ 500/ 863] Loss = 0.01219 (agg) = 0.01554 | Time = 1317.4746s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch44in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch44in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch44in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch44in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  43/  60] TrainLoss = 0.01625 ValLoss = 0.01499 TrainTime = 12824.9413s ValTime = 2299.9339s
+Epoch #44 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 44/ 60] Iter = [   0/4937] Loss = 0.00027 (agg) = 0.00027 | Time = 2.8609s
+Epoch = [ 44/ 60] Iter = [ 500/4937] Loss = 0.00615 (agg) = 0.01595 | Time = 1289.5520s
+Epoch = [ 44/ 60] Iter = [1000/4937] Loss = 0.01617 (agg) = 0.01573 | Time = 1308.6580s
+Epoch = [ 44/ 60] Iter = [1500/4937] Loss = 0.02110 (agg) = 0.01556 | Time = 1314.7003s
+Epoch = [ 44/ 60] Iter = [2000/4937] Loss = 0.01676 (agg) = 0.01555 | Time = 1303.0047s
+Epoch = [ 44/ 60] Iter = [2500/4937] Loss = 0.00951 (agg) = 0.01579 | Time = 1293.5808s
+Epoch = [ 44/ 60] Iter = [3000/4937] Loss = 0.03110 (agg) = 0.01612 | Time = 1295.7227s
+Epoch = [ 44/ 60] Iter = [3500/4937] Loss = 0.07556 (agg) = 0.01608 | Time = 1302.9393s
+Epoch = [ 44/ 60] Iter = [4000/4937] Loss = 0.04395 (agg) = 0.01617 | Time = 1302.3468s
+Epoch = [ 44/ 60] Iter = [4500/4937] Loss = 0.02439 (agg) = 0.01622 | Time = 1291.1553s
+Epoch = [ 44/ 60] Iter = [   0/ 863] Loss = 0.09536 (agg) = 0.09536 | Time = 2.4041s
+Epoch = [ 44/ 60] Iter = [ 500/ 863] Loss = 0.04926 (agg) = 0.01514 | Time = 1325.4061s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch45in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch45in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch45in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch45in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  44/  60] TrainLoss = 0.0161 ValLoss = 0.01533 TrainTime = 12821.3140s ValTime = 2297.8462s
+Epoch #45 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 45/ 60] Iter = [   0/4937] Loss = 0.01275 (agg) = 0.01275 | Time = 2.2338s
+Epoch = [ 45/ 60] Iter = [ 500/4937] Loss = 0.02937 (agg) = 0.01569 | Time = 1283.2980s
+Epoch = [ 45/ 60] Iter = [1000/4937] Loss = 0.00442 (agg) = 0.01611 | Time = 1293.8703s
+Epoch = [ 45/ 60] Iter = [1500/4937] Loss = 0.00463 (agg) = 0.01601 | Time = 1284.4493s
+Epoch = [ 45/ 60] Iter = [2000/4937] Loss = 0.00164 (agg) = 0.01625 | Time = 1303.6190s
+Epoch = [ 45/ 60] Iter = [2500/4937] Loss = 0.01834 (agg) = 0.01586 | Time = 1315.2181s
+Epoch = [ 45/ 60] Iter = [3000/4937] Loss = 0.00656 (agg) = 0.01586 | Time = 1316.7782s
+Epoch = [ 45/ 60] Iter = [3500/4937] Loss = 0.00854 (agg) = 0.01587 | Time = 1291.7742s
+Epoch = [ 45/ 60] Iter = [4000/4937] Loss = 0.21226 (agg) = 0.01579 | Time = 1301.2725s
+Epoch = [ 45/ 60] Iter = [4500/4937] Loss = 0.00923 (agg) = 0.01588 | Time = 1293.8626s
+Epoch = [ 45/ 60] Iter = [   0/ 863] Loss = 0.01987 (agg) = 0.01987 | Time = 2.3783s
+Epoch = [ 45/ 60] Iter = [ 500/ 863] Loss = 0.00301 (agg) = 0.01511 | Time = 1336.4876s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch46in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch46in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch46in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch46in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  45/  60] TrainLoss = 0.01583 ValLoss = 0.01506 TrainTime = 12822.7127s ValTime = 2299.7136s
+Epoch #46 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 46/ 60] Iter = [   0/4937] Loss = 0.00885 (agg) = 0.00885 | Time = 2.8930s
+Epoch = [ 46/ 60] Iter = [ 500/4937] Loss = 0.00292 (agg) = 0.01493 | Time = 1314.8234s
+Epoch = [ 46/ 60] Iter = [1000/4937] Loss = 0.00783 (agg) = 0.01506 | Time = 1314.5499s
+Epoch = [ 46/ 60] Iter = [1500/4937] Loss = 0.02902 (agg) = 0.01503 | Time = 1328.2881s
+Epoch = [ 46/ 60] Iter = [2000/4937] Loss = 0.00548 (agg) = 0.01548 | Time = 1268.4490s
+Epoch = [ 46/ 60] Iter = [2500/4937] Loss = 0.01000 (agg) = 0.01549 | Time = 1289.7941s
+Epoch = [ 46/ 60] Iter = [3000/4937] Loss = 0.03746 (agg) = 0.01541 | Time = 1300.5293s
+Epoch = [ 46/ 60] Iter = [3500/4937] Loss = 0.00482 (agg) = 0.01543 | Time = 1304.8326s
+Epoch = [ 46/ 60] Iter = [4000/4937] Loss = 0.00570 (agg) = 0.01568 | Time = 1287.8992s
+Epoch = [ 46/ 60] Iter = [4500/4937] Loss = 0.00406 (agg) = 0.01575 | Time = 1299.4121s
+Epoch = [ 46/ 60] Iter = [   0/ 863] Loss = 0.03594 (agg) = 0.03594 | Time = 2.2668s
+Epoch = [ 46/ 60] Iter = [ 500/ 863] Loss = 0.01531 (agg) = 0.01503 | Time = 1323.7134s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch47in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch47in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch47in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch47in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  46/  60] TrainLoss = 0.01578 ValLoss = 0.01508 TrainTime = 12840.7594s ValTime = 2298.8320s
+Epoch #47 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 47/ 60] Iter = [   0/4937] Loss = 0.01368 (agg) = 0.01368 | Time = 2.2237s
+Epoch = [ 47/ 60] Iter = [ 500/4937] Loss = 0.00913 (agg) = 0.01524 | Time = 1308.6025s
+Epoch = [ 47/ 60] Iter = [1000/4937] Loss = 0.02181 (agg) = 0.01579 | Time = 1288.0916s
+Epoch = [ 47/ 60] Iter = [1500/4937] Loss = 0.00311 (agg) = 0.01567 | Time = 1311.3175s
+Epoch = [ 47/ 60] Iter = [2000/4937] Loss = 0.00217 (agg) = 0.01578 | Time = 1283.4432s
+Epoch = [ 47/ 60] Iter = [2500/4937] Loss = 0.00894 (agg) = 0.01582 | Time = 1300.7522s
+Epoch = [ 47/ 60] Iter = [3000/4937] Loss = 0.00310 (agg) = 0.01588 | Time = 1289.9100s
+Epoch = [ 47/ 60] Iter = [3500/4937] Loss = 0.00279 (agg) = 0.01592 | Time = 1288.2695s
+Epoch = [ 47/ 60] Iter = [4000/4937] Loss = 0.00875 (agg) = 0.01589 | Time = 1293.7438s
+Epoch = [ 47/ 60] Iter = [4500/4937] Loss = 0.02853 (agg) = 0.01581 | Time = 1330.8376s
+Epoch = [ 47/ 60] Iter = [   0/ 863] Loss = 0.01005 (agg) = 0.01005 | Time = 2.6017s
+Epoch = [ 47/ 60] Iter = [ 500/ 863] Loss = 0.00218 (agg) = 0.01497 | Time = 1344.5158s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch48in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch48in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch48in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch48in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  47/  60] TrainLoss = 0.01583 ValLoss = 0.01518 TrainTime = 12837.7409s ValTime = 2299.9892s
+Epoch #48 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 48/ 60] Iter = [   0/4937] Loss = 0.06773 (agg) = 0.06773 | Time = 2.2087s
+Epoch = [ 48/ 60] Iter = [ 500/4937] Loss = 0.00423 (agg) = 0.01600 | Time = 1303.9033s
+Epoch = [ 48/ 60] Iter = [1000/4937] Loss = 0.00997 (agg) = 0.01566 | Time = 1316.6426s
+Epoch = [ 48/ 60] Iter = [1500/4937] Loss = 0.01234 (agg) = 0.01603 | Time = 1317.2067s
+Epoch = [ 48/ 60] Iter = [2000/4937] Loss = 0.00969 (agg) = 0.01591 | Time = 1295.0799s
+Epoch = [ 48/ 60] Iter = [2500/4937] Loss = 0.01213 (agg) = 0.01571 | Time = 1280.9408s
+Epoch = [ 48/ 60] Iter = [3000/4937] Loss = 0.00889 (agg) = 0.01563 | Time = 1297.6701s
+Epoch = [ 48/ 60] Iter = [3500/4937] Loss = 0.00579 (agg) = 0.01574 | Time = 1306.1408s
+Epoch = [ 48/ 60] Iter = [4000/4937] Loss = 0.03050 (agg) = 0.01592 | Time = 1295.9226s
+Epoch = [ 48/ 60] Iter = [4500/4937] Loss = 0.01571 (agg) = 0.01596 | Time = 1288.3991s
+Epoch = [ 48/ 60] Iter = [   0/ 863] Loss = 0.00547 (agg) = 0.00547 | Time = 2.7546s
+Epoch = [ 48/ 60] Iter = [ 500/ 863] Loss = 0.02112 (agg) = 0.01483 | Time = 1337.4473s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch49in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch49in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch49in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch49in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  48/  60] TrainLoss = 0.01599 ValLoss = 0.01516 TrainTime = 12830.4615s ValTime = 2310.2205s
+Epoch #49 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 49/ 60] Iter = [   0/4937] Loss = 0.00560 (agg) = 0.00560 | Time = 2.6692s
+Epoch = [ 49/ 60] Iter = [ 500/4937] Loss = 0.00251 (agg) = 0.01561 | Time = 1309.7990s
+Epoch = [ 49/ 60] Iter = [1000/4937] Loss = 0.02590 (agg) = 0.01625 | Time = 1287.6662s
+Epoch = [ 49/ 60] Iter = [1500/4937] Loss = 0.00796 (agg) = 0.01616 | Time = 1297.7723s
+Epoch = [ 49/ 60] Iter = [2000/4937] Loss = 0.00663 (agg) = 0.01579 | Time = 1313.5421s
+Epoch = [ 49/ 60] Iter = [2500/4937] Loss = 0.00661 (agg) = 0.01590 | Time = 1305.5115s
+Epoch = [ 49/ 60] Iter = [3000/4937] Loss = 0.00990 (agg) = 0.01562 | Time = 1302.4167s
+Epoch = [ 49/ 60] Iter = [3500/4937] Loss = 0.01947 (agg) = 0.01568 | Time = 1291.9480s
+Epoch = [ 49/ 60] Iter = [4000/4937] Loss = 0.02256 (agg) = 0.01563 | Time = 1307.0499s
+Epoch = [ 49/ 60] Iter = [4500/4937] Loss = 0.02041 (agg) = 0.01570 | Time = 1307.4917s
+Epoch = [ 49/ 60] Iter = [   0/ 863] Loss = 0.00142 (agg) = 0.00142 | Time = 3.3605s
+Epoch = [ 49/ 60] Iter = [ 500/ 863] Loss = 0.02577 (agg) = 0.01477 | Time = 1331.3814s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch50in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch50in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch50in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch50in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  49/  60] TrainLoss = 0.01579 ValLoss = 0.01548 TrainTime = 12856.4480s ValTime = 2302.6599s
+Epoch #50 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 50/ 60] Iter = [   0/4937] Loss = 0.00231 (agg) = 0.00231 | Time = 2.8722s
+Epoch = [ 50/ 60] Iter = [ 500/4937] Loss = 0.00939 (agg) = 0.01527 | Time = 1292.8502s
+Epoch = [ 50/ 60] Iter = [1000/4937] Loss = 0.00029 (agg) = 0.01556 | Time = 1295.7990s
+Epoch = [ 50/ 60] Iter = [1500/4937] Loss = 0.00363 (agg) = 0.01532 | Time = 1300.9524s
+Epoch = [ 50/ 60] Iter = [2000/4937] Loss = 0.04650 (agg) = 0.01580 | Time = 1311.0627s
+Epoch = [ 50/ 60] Iter = [2500/4937] Loss = 0.00545 (agg) = 0.01556 | Time = 1292.8274s
+Epoch = [ 50/ 60] Iter = [3000/4937] Loss = 0.00558 (agg) = 0.01560 | Time = 1311.8669s
+Epoch = [ 50/ 60] Iter = [3500/4937] Loss = 0.01469 (agg) = 0.01560 | Time = 1293.0916s
+Epoch = [ 50/ 60] Iter = [4000/4937] Loss = 0.01023 (agg) = 0.01567 | Time = 1295.5951s
+Epoch = [ 50/ 60] Iter = [4500/4937] Loss = 0.01539 (agg) = 0.01561 | Time = 1310.4426s
+Epoch = [ 50/ 60] Iter = [   0/ 863] Loss = 0.00703 (agg) = 0.00703 | Time = 2.3593s
+Epoch = [ 50/ 60] Iter = [ 500/ 863] Loss = 0.02815 (agg) = 0.01458 | Time = 1327.5205s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch51in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch51in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch51in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch51in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  50/  60] TrainLoss = 0.01562 ValLoss = 0.01486 TrainTime = 12855.6007s ValTime = 2299.6810s
+Epoch #51 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 51/ 60] Iter = [   0/4937] Loss = 0.03216 (agg) = 0.03216 | Time = 2.2485s
+Epoch = [ 51/ 60] Iter = [ 500/4937] Loss = 0.00508 (agg) = 0.01579 | Time = 1304.7056s
+Epoch = [ 51/ 60] Iter = [1000/4937] Loss = 0.00656 (agg) = 0.01587 | Time = 1300.1734s
+Epoch = [ 51/ 60] Iter = [1500/4937] Loss = 0.00129 (agg) = 0.01579 | Time = 1305.3233s
+Epoch = [ 51/ 60] Iter = [2000/4937] Loss = 0.00715 (agg) = 0.01579 | Time = 1310.6695s
+Epoch = [ 51/ 60] Iter = [2500/4937] Loss = 0.00404 (agg) = 0.01570 | Time = 1303.6457s
+Epoch = [ 51/ 60] Iter = [3000/4937] Loss = 0.04494 (agg) = 0.01567 | Time = 1292.6450s
+Epoch = [ 51/ 60] Iter = [3500/4937] Loss = 0.01427 (agg) = 0.01557 | Time = 1295.6997s
+Epoch = [ 51/ 60] Iter = [4000/4937] Loss = 0.00814 (agg) = 0.01561 | Time = 1289.1083s
+Epoch = [ 51/ 60] Iter = [4500/4937] Loss = 0.00717 (agg) = 0.01559 | Time = 1285.5075s
+Epoch = [ 51/ 60] Iter = [   0/ 863] Loss = 0.00911 (agg) = 0.00911 | Time = 2.3088s
+Epoch = [ 51/ 60] Iter = [ 500/ 863] Loss = 0.02430 (agg) = 0.01492 | Time = 1342.2362s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch52in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch52in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch52in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch52in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  51/  60] TrainLoss = 0.01566 ValLoss = 0.01524 TrainTime = 12855.4617s ValTime = 2303.6219s
+Epoch #52 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 52/ 60] Iter = [   0/4937] Loss = 0.00879 (agg) = 0.00879 | Time = 2.2567s
+Epoch = [ 52/ 60] Iter = [ 500/4937] Loss = 0.02345 (agg) = 0.01549 | Time = 1288.8801s
+Epoch = [ 52/ 60] Iter = [1000/4937] Loss = 0.01361 (agg) = 0.01515 | Time = 1305.0731s
+Epoch = [ 52/ 60] Iter = [1500/4937] Loss = 0.02072 (agg) = 0.01518 | Time = 1317.7116s
+Epoch = [ 52/ 60] Iter = [2000/4937] Loss = 0.04578 (agg) = 0.01543 | Time = 1303.0801s
+Epoch = [ 52/ 60] Iter = [2500/4937] Loss = 0.06977 (agg) = 0.01550 | Time = 1308.5961s
+Epoch = [ 52/ 60] Iter = [3000/4937] Loss = 0.00299 (agg) = 0.01556 | Time = 1322.3221s
+Epoch = [ 52/ 60] Iter = [3500/4937] Loss = 0.00157 (agg) = 0.01550 | Time = 1301.2242s
+Epoch = [ 52/ 60] Iter = [4000/4937] Loss = 0.00031 (agg) = 0.01546 | Time = 1306.3949s
+Epoch = [ 52/ 60] Iter = [4500/4937] Loss = 0.03230 (agg) = 0.01545 | Time = 1311.1538s
+Epoch = [ 52/ 60] Iter = [   0/ 863] Loss = 0.00159 (agg) = 0.00159 | Time = 2.2027s
+Epoch = [ 52/ 60] Iter = [ 500/ 863] Loss = 0.00884 (agg) = 0.01513 | Time = 1341.9546s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch53in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch53in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch53in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch53in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  52/  60] TrainLoss = 0.01556 ValLoss = 0.0153 TrainTime = 12887.4949s ValTime = 2305.7462s
+Epoch #53 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 53/ 60] Iter = [   0/4937] Loss = 0.01023 (agg) = 0.01023 | Time = 2.6613s
+Epoch = [ 53/ 60] Iter = [ 500/4937] Loss = 0.00513 (agg) = 0.01505 | Time = 1301.1079s
+Epoch = [ 53/ 60] Iter = [1000/4937] Loss = 0.03131 (agg) = 0.01539 | Time = 1294.1074s
+Epoch = [ 53/ 60] Iter = [1500/4937] Loss = 0.01564 (agg) = 0.01583 | Time = 1306.1858s
+Epoch = [ 53/ 60] Iter = [2000/4937] Loss = 0.02911 (agg) = 0.01559 | Time = 1300.2116s
+Epoch = [ 53/ 60] Iter = [2500/4937] Loss = 0.00555 (agg) = 0.01553 | Time = 1304.8736s
+Epoch = [ 53/ 60] Iter = [3000/4937] Loss = 0.01097 (agg) = 0.01526 | Time = 1314.2857s
+Epoch = [ 53/ 60] Iter = [3500/4937] Loss = 0.02396 (agg) = 0.01537 | Time = 1309.4180s
+Epoch = [ 53/ 60] Iter = [4000/4937] Loss = 0.01047 (agg) = 0.01533 | Time = 1301.8154s
+Epoch = [ 53/ 60] Iter = [4500/4937] Loss = 0.00738 (agg) = 0.01532 | Time = 1298.1033s
+Epoch = [ 53/ 60] Iter = [   0/ 863] Loss = 0.00581 (agg) = 0.00581 | Time = 3.3649s
+Epoch = [ 53/ 60] Iter = [ 500/ 863] Loss = 0.00918 (agg) = 0.01434 | Time = 1334.8876s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch54in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch54in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch54in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch54in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  53/  60] TrainLoss = 0.01534 ValLoss = 0.0144 TrainTime = 12888.5912s ValTime = 2302.1210s
+Epoch #54 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 54/ 60] Iter = [   0/4937] Loss = 0.00957 (agg) = 0.00957 | Time = 2.6255s
+Epoch = [ 54/ 60] Iter = [ 500/4937] Loss = 0.00198 (agg) = 0.01470 | Time = 1312.3647s
+Epoch = [ 54/ 60] Iter = [1000/4937] Loss = 0.02866 (agg) = 0.01551 | Time = 1299.2444s
+Epoch = [ 54/ 60] Iter = [1500/4937] Loss = 0.01012 (agg) = 0.01520 | Time = 1306.9479s
+Epoch = [ 54/ 60] Iter = [2000/4937] Loss = 0.01729 (agg) = 0.01532 | Time = 1330.6801s
+Epoch = [ 54/ 60] Iter = [2500/4937] Loss = 0.00222 (agg) = 0.01527 | Time = 1306.8507s
+Epoch = [ 54/ 60] Iter = [3000/4937] Loss = 0.00224 (agg) = 0.01526 | Time = 1303.2317s
+Epoch = [ 54/ 60] Iter = [3500/4937] Loss = 0.00804 (agg) = 0.01536 | Time = 1299.2876s
+Epoch = [ 54/ 60] Iter = [4000/4937] Loss = 0.00367 (agg) = 0.01544 | Time = 1315.7329s
+Epoch = [ 54/ 60] Iter = [4500/4937] Loss = 0.02501 (agg) = 0.01545 | Time = 1308.5582s
+Epoch = [ 54/ 60] Iter = [   0/ 863] Loss = 0.00428 (agg) = 0.00428 | Time = 2.3188s
+Epoch = [ 54/ 60] Iter = [ 500/ 863] Loss = 0.02291 (agg) = 0.01405 | Time = 1341.7587s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch55in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch55in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch55in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch55in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  54/  60] TrainLoss = 0.01527 ValLoss = 0.01509 TrainTime = 12923.7658s ValTime = 2313.7487s
+Epoch #55 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 55/ 60] Iter = [   0/4937] Loss = 0.01287 (agg) = 0.01287 | Time = 2.2417s
+Epoch = [ 55/ 60] Iter = [ 500/4937] Loss = 0.01086 (agg) = 0.01529 | Time = 1303.9004s
+Epoch = [ 55/ 60] Iter = [1000/4937] Loss = 0.00524 (agg) = 0.01546 | Time = 1307.9297s
+Epoch = [ 55/ 60] Iter = [1500/4937] Loss = 0.04503 (agg) = 0.01532 | Time = 1311.5316s
+Epoch = [ 55/ 60] Iter = [2000/4937] Loss = 0.05342 (agg) = 0.01508 | Time = 1330.5686s
+Epoch = [ 55/ 60] Iter = [2500/4937] Loss = 0.00000 (agg) = 0.01519 | Time = 1327.9205s
+Epoch = [ 55/ 60] Iter = [3000/4937] Loss = 0.00474 (agg) = 0.01518 | Time = 1299.5050s
+Epoch = [ 55/ 60] Iter = [3500/4937] Loss = 0.03702 (agg) = 0.01520 | Time = 1313.4233s
+Epoch = [ 55/ 60] Iter = [4000/4937] Loss = 0.00542 (agg) = 0.01518 | Time = 1316.9583s
+Epoch = [ 55/ 60] Iter = [4500/4937] Loss = 0.01407 (agg) = 0.01534 | Time = 1299.9241s
+Epoch = [ 55/ 60] Iter = [   0/ 863] Loss = 0.01147 (agg) = 0.01147 | Time = 3.0984s
+Epoch = [ 55/ 60] Iter = [ 500/ 863] Loss = 0.01788 (agg) = 0.01405 | Time = 1348.8105s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch56in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch56in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch56in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch56in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  55/  60] TrainLoss = 0.01524 ValLoss = 0.01475 TrainTime = 12954.1103s ValTime = 2309.1314s
+Epoch #56 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 56/ 60] Iter = [   0/4937] Loss = 0.01571 (agg) = 0.01571 | Time = 2.3360s
+Epoch = [ 56/ 60] Iter = [ 500/4937] Loss = 0.03663 (agg) = 0.01578 | Time = 1343.9398s
+Epoch = [ 56/ 60] Iter = [1000/4937] Loss = 0.00856 (agg) = 0.01583 | Time = 1281.0509s
+Epoch = [ 56/ 60] Iter = [1500/4937] Loss = 0.00105 (agg) = 0.01554 | Time = 1334.9720s
+Epoch = [ 56/ 60] Iter = [2000/4937] Loss = 0.00621 (agg) = 0.01544 | Time = 1301.8313s
+Epoch = [ 56/ 60] Iter = [2500/4937] Loss = 0.00589 (agg) = 0.01568 | Time = 1309.3608s
+Epoch = [ 56/ 60] Iter = [3000/4937] Loss = 0.00685 (agg) = 0.01562 | Time = 1307.2953s
+Epoch = [ 56/ 60] Iter = [3500/4937] Loss = 0.00995 (agg) = 0.01546 | Time = 1313.8158s
+Epoch = [ 56/ 60] Iter = [4000/4937] Loss = 0.00453 (agg) = 0.01539 | Time = 1317.1669s
+Epoch = [ 56/ 60] Iter = [4500/4937] Loss = 0.01102 (agg) = 0.01518 | Time = 1353.4082s
+Epoch = [ 56/ 60] Iter = [   0/ 863] Loss = 0.00133 (agg) = 0.00133 | Time = 2.8725s
+Epoch = [ 56/ 60] Iter = [ 500/ 863] Loss = 0.01614 (agg) = 0.01565 | Time = 1336.8357s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch57in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch57in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch57in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch57in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  56/  60] TrainLoss = 0.01525 ValLoss = 0.01464 TrainTime = 13007.0816s ValTime = 2323.6524s
+Epoch #57 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 57/ 60] Iter = [   0/4937] Loss = 0.04922 (agg) = 0.04922 | Time = 2.2051s
+Epoch = [ 57/ 60] Iter = [ 500/4937] Loss = 0.00477 (agg) = 0.01469 | Time = 1316.6460s
+Epoch = [ 57/ 60] Iter = [1000/4937] Loss = 0.00600 (agg) = 0.01464 | Time = 1320.1320s
+Epoch = [ 57/ 60] Iter = [1500/4937] Loss = 0.00651 (agg) = 0.01482 | Time = 1295.3904s
+Epoch = [ 57/ 60] Iter = [2000/4937] Loss = 0.00823 (agg) = 0.01484 | Time = 1308.7441s
+Epoch = [ 57/ 60] Iter = [2500/4937] Loss = 0.03479 (agg) = 0.01519 | Time = 1295.1208s
+Epoch = [ 57/ 60] Iter = [3000/4937] Loss = 0.00206 (agg) = 0.01557 | Time = 1280.8136s
+Epoch = [ 57/ 60] Iter = [3500/4937] Loss = 0.00508 (agg) = 0.01577 | Time = 1315.9368s
+Epoch = [ 57/ 60] Iter = [4000/4937] Loss = 0.00939 (agg) = 0.01574 | Time = 1325.1341s
+Epoch = [ 57/ 60] Iter = [4500/4937] Loss = 0.00591 (agg) = 0.01565 | Time = 1331.0839s
+Epoch = [ 57/ 60] Iter = [   0/ 863] Loss = 0.00242 (agg) = 0.00242 | Time = 3.3946s
+Epoch = [ 57/ 60] Iter = [ 500/ 863] Loss = 0.00727 (agg) = 0.01631 | Time = 1339.5116s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch58in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch58in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch58in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch58in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  57/  60] TrainLoss = 0.0155 ValLoss = 0.01475 TrainTime = 12942.0864s ValTime = 2328.2073s
+Epoch #58 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 58/ 60] Iter = [   0/4937] Loss = 0.00302 (agg) = 0.00302 | Time = 2.3930s
+Epoch = [ 58/ 60] Iter = [ 500/4937] Loss = 0.03631 (agg) = 0.01570 | Time = 1314.3560s
+Epoch = [ 58/ 60] Iter = [1000/4937] Loss = 0.01579 (agg) = 0.01518 | Time = 1314.7025s
+Epoch = [ 58/ 60] Iter = [1500/4937] Loss = 0.01707 (agg) = 0.01536 | Time = 1313.0414s
+Epoch = [ 58/ 60] Iter = [2000/4937] Loss = 0.00000 (agg) = 0.01540 | Time = 1302.9595s
+Epoch = [ 58/ 60] Iter = [2500/4937] Loss = 0.01490 (agg) = 0.01541 | Time = 1301.5905s
+Epoch = [ 58/ 60] Iter = [3000/4937] Loss = 0.02430 (agg) = 0.01553 | Time = 1296.7250s
+Epoch = [ 58/ 60] Iter = [3500/4937] Loss = 0.03459 (agg) = 0.01553 | Time = 1326.1572s
+Epoch = [ 58/ 60] Iter = [4000/4937] Loss = 0.00959 (agg) = 0.01540 | Time = 1330.1951s
+Epoch = [ 58/ 60] Iter = [4500/4937] Loss = 0.01706 (agg) = 0.01540 | Time = 1318.9159s
+Epoch = [ 58/ 60] Iter = [   0/ 863] Loss = 0.03664 (agg) = 0.03664 | Time = 2.1744s
+Epoch = [ 58/ 60] Iter = [ 500/ 863] Loss = 0.00957 (agg) = 0.01467 | Time = 1355.5591s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch59in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch59in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch59in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch59in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  58/  60] TrainLoss = 0.01543 ValLoss = 0.01479 TrainTime = 12955.2638s ValTime = 2323.9623s
+Epoch #59 from pretrained model at epoch 30 ............... test_PromptMR++_hacker_moe ...............
+Epoch = [ 59/ 60] Iter = [   0/4937] Loss = 0.01309 (agg) = 0.01309 | Time = 3.5974s
+Epoch = [ 59/ 60] Iter = [ 500/4937] Loss = 0.00288 (agg) = 0.01610 | Time = 1312.3449s
+Epoch = [ 59/ 60] Iter = [1000/4937] Loss = 0.01282 (agg) = 0.01615 | Time = 1303.3672s
+Epoch = [ 59/ 60] Iter = [1500/4937] Loss = 0.00503 (agg) = 0.01572 | Time = 1339.9134s
+Epoch = [ 59/ 60] Iter = [2000/4937] Loss = 0.00462 (agg) = 0.01541 | Time = 1305.0175s
+Epoch = [ 59/ 60] Iter = [2500/4937] Loss = 0.03333 (agg) = 0.01513 | Time = 1318.2886s
+Epoch = [ 59/ 60] Iter = [3000/4937] Loss = 0.01293 (agg) = 0.01524 | Time = 1327.5746s
+Epoch = [ 59/ 60] Iter = [3500/4937] Loss = 0.00325 (agg) = 0.01523 | Time = 1317.9970s
+Epoch = [ 59/ 60] Iter = [4000/4937] Loss = 0.00432 (agg) = 0.01519 | Time = 1313.0827s
+Epoch = [ 59/ 60] Iter = [4500/4937] Loss = 0.05882 (agg) = 0.01518 | Time = 1298.5368s
+Epoch = [ 59/ 60] Iter = [   0/ 863] Loss = 0.00195 (agg) = 0.00195 | Time = 2.9017s
+Epoch = [ 59/ 60] Iter = [ 500/ 863] Loss = 0.03012 (agg) = 0.01471 | Time = 1343.4737s
+loss file saved! ../result/test_PromptMR++_hacker_moe/val_loss_log
+Model saved: model_epoch60in60_brain_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch60in60_brain_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch60in60_knee_acc4.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Model saved: model_epoch60in60_knee_acc8.pt in ../result/test_PromptMR++_hacker_moe/checkpoints
+Epoch = [  59/  60] TrainLoss = 0.01531 ValLoss = 0.01494 TrainTime = 12985.5543s ValTime = 2332.3594s
+root@workspace-1eg7l61bhfdu-0:~/FastMRI_challenge_sMaRtIfy_ver2# 

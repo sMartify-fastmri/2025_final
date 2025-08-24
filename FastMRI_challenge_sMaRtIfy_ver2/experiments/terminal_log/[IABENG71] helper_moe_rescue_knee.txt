@@ -1,0 +1,577 @@
+root@workspace-cu6vx225mbmh-0:~/FastMRI_challenge_sMaRtIfy_ver2# sh helper_moe_rescue_knee.sh
+Current cuda device:  0
+[Calling classifier...] Current cuda device:  0
+Starting from the very first of MoE training... validation loss log is empty.
+Epoch #30 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 30/ 60] Iter = [   0/4937] Loss = 0.04418 (agg) = 0.02209 | Time = 2.4933s
+Epoch = [ 30/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.04201 | Time = 522.3586s
+Epoch = [ 30/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.04177 | Time = 500.7998s
+Epoch = [ 30/ 60] Iter = [1500/4937] Loss = 0.01643 (agg) = 0.04075 | Time = 489.2014s
+Epoch = [ 30/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.04158 | Time = 534.6559s
+Epoch = [ 30/ 60] Iter = [2500/4937] Loss = 0.05693 (agg) = 0.04205 | Time = 521.8614s
+Epoch = [ 30/ 60] Iter = [3000/4937] Loss = 0.03908 (agg) = 0.04216 | Time = 468.8849s
+Epoch = [ 30/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.04240 | Time = 467.1908s
+Epoch = [ 30/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.04219 | Time = 517.1800s
+Epoch = [ 30/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.04173 | Time = 514.3832s
+Epoch = [ 30/ 60] Iter = [   0/ 863] Loss = 0.04859 (agg) = 0.02429 | Time = 2.1670s
+Epoch = [ 30/ 60] Iter = [ 500/ 863] Loss = 0.04133 (agg) = 0.04088 | Time = 495.3157s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch31in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch31in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch31in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch31in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  30/  60] TrainLoss = 0.04178 ValLoss = 0.04013 TrainTime = 5012.0233s ValTime = 854.4966s
+Epoch #31 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 31/ 60] Iter = [   0/4937] Loss = 0.06139 (agg) = 0.03069 | Time = 2.0964s
+Epoch = [ 31/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.04253 | Time = 500.6931s
+Epoch = [ 31/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.04406 | Time = 506.6935s
+Epoch = [ 31/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.04268 | Time = 489.1726s
+Epoch = [ 31/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.04273 | Time = 516.9897s
+Epoch = [ 31/ 60] Iter = [2500/4937] Loss = 0.08703 (agg) = 0.04213 | Time = 515.5707s
+Epoch = [ 31/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.04234 | Time = 505.3835s
+Epoch = [ 31/ 60] Iter = [3500/4937] Loss = 0.08625 (agg) = 0.04213 | Time = 519.7769s
+Epoch = [ 31/ 60] Iter = [4000/4937] Loss = 0.13679 (agg) = 0.04242 | Time = 515.9983s
+Epoch = [ 31/ 60] Iter = [4500/4937] Loss = 0.02914 (agg) = 0.04227 | Time = 497.8759s
+Epoch = [ 31/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.0693s
+Epoch = [ 31/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.04037 | Time = 492.6372s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch32in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch32in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch32in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch32in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  31/  60] TrainLoss = 0.04203 ValLoss = 0.04089 TrainTime = 5005.8283s ValTime = 854.1848s
+Epoch #32 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 32/ 60] Iter = [   0/4937] Loss = 0.02516 (agg) = 0.01258 | Time = 2.0990s
+Epoch = [ 32/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.04012 | Time = 549.6780s
+Epoch = [ 32/ 60] Iter = [1000/4937] Loss = 0.02386 (agg) = 0.04027 | Time = 511.5719s
+Epoch = [ 32/ 60] Iter = [1500/4937] Loss = 0.00381 (agg) = 0.04115 | Time = 527.4469s
+Epoch = [ 32/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.04069 | Time = 501.1735s
+Epoch = [ 32/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.04171 | Time = 477.4486s
+Epoch = [ 32/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.04151 | Time = 508.6829s
+Epoch = [ 32/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.04216 | Time = 513.1664s
+Epoch = [ 32/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.04252 | Time = 511.9918s
+Epoch = [ 32/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.04249 | Time = 488.3619s
+Epoch = [ 32/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.0972s
+Epoch = [ 32/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.03984 | Time = 486.7413s
+/usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch33in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch33in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch33in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch33in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  32/  60] TrainLoss = 0.04229 ValLoss = 0.04094 TrainTime = 5010.1196s ValTime = 853.2699s
+Epoch #33 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 33/ 60] Iter = [   0/4937] Loss = 0.03142 (agg) = 0.01571 | Time = 2.1052s
+Epoch = [ 33/ 60] Iter = [ 500/4937] Loss = 0.03439 (agg) = 0.03970 | Time = 499.4724s
+Epoch = [ 33/ 60] Iter = [1000/4937] Loss = 0.00241 (agg) = 0.04009 | Time = 497.4089s
+Epoch = [ 33/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.04084 | Time = 552.1583s
+Epoch = [ 33/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.04129 | Time = 484.7275s
+Epoch = [ 33/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.04193 | Time = 518.3107s
+Epoch = [ 33/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.04245 | Time = 497.8954s
+Epoch = [ 33/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.04317 | Time = 521.2729s
+Epoch = [ 33/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.04265 | Time = 470.2411s
+Epoch = [ 33/ 60] Iter = [4500/4937] Loss = 0.02168 (agg) = 0.04257 | Time = 525.5390s
+Epoch = [ 33/ 60] Iter = [   0/ 863] Loss = 0.02068 (agg) = 0.01034 | Time = 2.1015s
+Epoch = [ 33/ 60] Iter = [ 500/ 863] Loss = 0.04587 (agg) = 0.04024 | Time = 509.7867s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch34in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch34in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch34in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch34in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  33/  60] TrainLoss = 0.04243 ValLoss = 0.04083 TrainTime = 5010.3465s ValTime = 854.8907s
+Epoch #34 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 34/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.1554s
+Epoch = [ 34/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.03638 | Time = 594.8209s
+Epoch = [ 34/ 60] Iter = [1000/4937] Loss = 0.08008 (agg) = 0.03660 | Time = 555.5739s
+Epoch = [ 34/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.03746 | Time = 523.2420s
+Epoch = [ 34/ 60] Iter = [2000/4937] Loss = 0.07762 (agg) = 0.03713 | Time = 559.9132s
+Epoch = [ 34/ 60] Iter = [2500/4937] Loss = 0.06129 (agg) = 0.03699 | Time = 539.5207s
+Epoch = [ 34/ 60] Iter = [3000/4937] Loss = 0.00773 (agg) = 0.03688 | Time = 550.7175s
+Epoch = [ 34/ 60] Iter = [3500/4937] Loss = 0.01206 (agg) = 0.03674 | Time = 575.2304s
+Epoch = [ 34/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.03659 | Time = 560.8147s
+Epoch = [ 34/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.03667 | Time = 560.1725s
+Epoch = [ 34/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2420s
+Epoch = [ 34/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.03476 | Time = 555.9941s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch35in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch35in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch35in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch35in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  34/  60] TrainLoss = 0.03668 ValLoss = 0.0354 TrainTime = 5522.7481s ValTime = 948.4472s
+Epoch #35 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 35/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2156s
+Epoch = [ 35/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.03095 | Time = 565.1825s
+Epoch = [ 35/ 60] Iter = [1000/4937] Loss = 0.02271 (agg) = 0.03304 | Time = 601.5521s
+Epoch = [ 35/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.03284 | Time = 558.9019s
+Epoch = [ 35/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.03232 | Time = 576.7894s
+Epoch = [ 35/ 60] Iter = [2500/4937] Loss = 0.01266 (agg) = 0.03251 | Time = 562.5299s
+Epoch = [ 35/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.03251 | Time = 551.8702s
+Epoch = [ 35/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.03264 | Time = 613.6987s
+Epoch = [ 35/ 60] Iter = [4000/4937] Loss = 0.03172 (agg) = 0.03276 | Time = 532.6303s
+Epoch = [ 35/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.03275 | Time = 532.3911s
+Epoch = [ 35/ 60] Iter = [   0/ 863] Loss = 0.01511 (agg) = 0.00756 | Time = 2.2435s
+Epoch = [ 35/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.03392 | Time = 566.8479s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch36in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch36in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch36in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch36in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  35/  60] TrainLoss = 0.03289 ValLoss = 0.03264 TrainTime = 5562.8700s ValTime = 955.3497s
+Epoch #36 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 36/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2508s
+Epoch = [ 36/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.03130 | Time = 574.9506s
+Epoch = [ 36/ 60] Iter = [1000/4937] Loss = 0.01844 (agg) = 0.03115 | Time = 540.8756s
+Epoch = [ 36/ 60] Iter = [1500/4937] Loss = 0.05582 (agg) = 0.03134 | Time = 569.1390s
+Epoch = [ 36/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.03139 | Time = 583.9894s
+Epoch = [ 36/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.03112 | Time = 569.9414s
+Epoch = [ 36/ 60] Iter = [3000/4937] Loss = 0.02279 (agg) = 0.03081 | Time = 561.5629s
+Epoch = [ 36/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.03074 | Time = 558.1116s
+Epoch = [ 36/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.03072 | Time = 569.2274s
+Epoch = [ 36/ 60] Iter = [4500/4937] Loss = 0.06583 (agg) = 0.03089 | Time = 577.6704s
+Epoch = [ 36/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3438s
+Epoch = [ 36/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.03070 | Time = 528.1734s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch37in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch37in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch37in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch37in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  36/  60] TrainLoss = 0.03101 ValLoss = 0.03002 TrainTime = 5591.1060s ValTime = 960.8831s
+Epoch #37 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 37/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2720s
+Epoch = [ 37/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02750 | Time = 554.5843s
+Epoch = [ 37/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02810 | Time = 549.9298s
+Epoch = [ 37/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02881 | Time = 540.9924s
+Epoch = [ 37/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02936 | Time = 591.1872s
+Epoch = [ 37/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02953 | Time = 613.2819s
+Epoch = [ 37/ 60] Iter = [3000/4937] Loss = 0.02828 (agg) = 0.02937 | Time = 550.4848s
+Epoch = [ 37/ 60] Iter = [3500/4937] Loss = 0.05090 (agg) = 0.02913 | Time = 607.2886s
+Epoch = [ 37/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02912 | Time = 560.4185s
+Epoch = [ 37/ 60] Iter = [4500/4937] Loss = 0.03571 (agg) = 0.02947 | Time = 565.4609s
+Epoch = [ 37/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3459s
+Epoch = [ 37/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02889 | Time = 561.3645s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch38in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch38in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch38in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch38in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  37/  60] TrainLoss = 0.02934 ValLoss = 0.02797 TrainTime = 5604.3193s ValTime = 962.8398s
+Epoch #38 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 38/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2626s
+Epoch = [ 38/ 60] Iter = [ 500/4937] Loss = 0.02100 (agg) = 0.02884 | Time = 560.5810s
+Epoch = [ 38/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02882 | Time = 571.6462s
+Epoch = [ 38/ 60] Iter = [1500/4937] Loss = 0.01015 (agg) = 0.02909 | Time = 574.2249s
+Epoch = [ 38/ 60] Iter = [2000/4937] Loss = 0.00753 (agg) = 0.02915 | Time = 589.8506s
+Epoch = [ 38/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02956 | Time = 569.8330s
+Epoch = [ 38/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02989 | Time = 557.2618s
+Epoch = [ 38/ 60] Iter = [3500/4937] Loss = 0.00360 (agg) = 0.02974 | Time = 561.6518s
+Epoch = [ 38/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02934 | Time = 541.5448s
+Epoch = [ 38/ 60] Iter = [4500/4937] Loss = 0.01283 (agg) = 0.02907 | Time = 590.2167s
+Epoch = [ 38/ 60] Iter = [   0/ 863] Loss = 0.01823 (agg) = 0.00912 | Time = 2.2357s
+Epoch = [ 38/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02867 | Time = 544.4770s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch39in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch39in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch39in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch39in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  38/  60] TrainLoss = 0.02921 ValLoss = 0.02831 TrainTime = 5619.5191s ValTime = 964.5883s
+Epoch #39 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 39/ 60] Iter = [   0/4937] Loss = 0.01812 (agg) = 0.00906 | Time = 2.2663s
+Epoch = [ 39/ 60] Iter = [ 500/4937] Loss = 0.04618 (agg) = 0.03162 | Time = 541.8678s
+Epoch = [ 39/ 60] Iter = [1000/4937] Loss = 0.06686 (agg) = 0.02864 | Time = 565.9820s
+Epoch = [ 39/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02867 | Time = 594.5375s
+Epoch = [ 39/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02803 | Time = 514.4251s
+Epoch = [ 39/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02834 | Time = 613.2499s
+Epoch = [ 39/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02816 | Time = 598.3408s
+Epoch = [ 39/ 60] Iter = [3500/4937] Loss = 0.00887 (agg) = 0.02760 | Time = 561.5445s
+Epoch = [ 39/ 60] Iter = [4000/4937] Loss = 0.03405 (agg) = 0.02793 | Time = 543.2255s
+Epoch = [ 39/ 60] Iter = [4500/4937] Loss = 0.04281 (agg) = 0.02793 | Time = 590.2537s
+Epoch = [ 39/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3176s
+Epoch = [ 39/ 60] Iter = [ 500/ 863] Loss = 0.00779 (agg) = 0.02814 | Time = 556.3779s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch40in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch40in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch40in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch40in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  39/  60] TrainLoss = 0.02805 ValLoss = 0.02658 TrainTime = 5630.8553s ValTime = 968.0313s
+Epoch #40 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 40/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.1438s
+Epoch = [ 40/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02674 | Time = 567.4150s
+Epoch = [ 40/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02834 | Time = 583.6977s
+Epoch = [ 40/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02858 | Time = 593.4870s
+Epoch = [ 40/ 60] Iter = [2000/4937] Loss = 0.00207 (agg) = 0.02860 | Time = 609.6535s
+Epoch = [ 40/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02852 | Time = 538.2593s
+Epoch = [ 40/ 60] Iter = [3000/4937] Loss = 0.00937 (agg) = 0.02819 | Time = 556.5767s
+Epoch = [ 40/ 60] Iter = [3500/4937] Loss = 0.02600 (agg) = 0.02787 | Time = 537.3287s
+Epoch = [ 40/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02739 | Time = 577.3605s
+Epoch = [ 40/ 60] Iter = [4500/4937] Loss = 0.05584 (agg) = 0.02763 | Time = 577.5731s
+Epoch = [ 40/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2784s
+Epoch = [ 40/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02657 | Time = 579.2582s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch41in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch41in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch41in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch41in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  40/  60] TrainLoss = 0.02757 ValLoss = 0.02683 TrainTime = 5642.4146s ValTime = 973.9828s
+Epoch #41 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 41/ 60] Iter = [   0/4937] Loss = 0.06535 (agg) = 0.03268 | Time = 2.2329s
+Epoch = [ 41/ 60] Iter = [ 500/4937] Loss = 0.02268 (agg) = 0.02787 | Time = 591.0828s
+Epoch = [ 41/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02826 | Time = 573.9131s
+Epoch = [ 41/ 60] Iter = [1500/4937] Loss = 0.06704 (agg) = 0.02657 | Time = 534.3371s
+Epoch = [ 41/ 60] Iter = [2000/4937] Loss = 0.02146 (agg) = 0.02717 | Time = 571.8323s
+Epoch = [ 41/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02725 | Time = 578.1839s
+Epoch = [ 41/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02735 | Time = 568.8334s
+Epoch = [ 41/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02716 | Time = 579.4372s
+Epoch = [ 41/ 60] Iter = [4000/4937] Loss = 0.04657 (agg) = 0.02724 | Time = 571.9468s
+Epoch = [ 41/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02719 | Time = 568.1418s
+Epoch = [ 41/ 60] Iter = [   0/ 863] Loss = 0.01656 (agg) = 0.00828 | Time = 2.1624s
+Epoch = [ 41/ 60] Iter = [ 500/ 863] Loss = 0.01079 (agg) = 0.02529 | Time = 563.3662s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch42in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch42in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch42in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch42in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  41/  60] TrainLoss = 0.02716 ValLoss = 0.0255 TrainTime = 5666.1806s ValTime = 967.7054s
+Epoch #42 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 42/ 60] Iter = [   0/4937] Loss = 0.01274 (agg) = 0.00637 | Time = 2.2068s
+Epoch = [ 42/ 60] Iter = [ 500/4937] Loss = 0.02015 (agg) = 0.02525 | Time = 561.8178s
+Epoch = [ 42/ 60] Iter = [1000/4937] Loss = 0.00463 (agg) = 0.02678 | Time = 586.4182s
+Epoch = [ 42/ 60] Iter = [1500/4937] Loss = 0.01796 (agg) = 0.02681 | Time = 574.0666s
+Epoch = [ 42/ 60] Iter = [2000/4937] Loss = 0.04945 (agg) = 0.02730 | Time = 577.6228s
+Epoch = [ 42/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02761 | Time = 586.6114s
+Epoch = [ 42/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02782 | Time = 588.4560s
+Epoch = [ 42/ 60] Iter = [3500/4937] Loss = 0.02265 (agg) = 0.02762 | Time = 568.7414s
+Epoch = [ 42/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02753 | Time = 559.3516s
+Epoch = [ 42/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02744 | Time = 542.7351s
+Epoch = [ 42/ 60] Iter = [   0/ 863] Loss = 0.01539 (agg) = 0.00769 | Time = 2.2431s
+Epoch = [ 42/ 60] Iter = [ 500/ 863] Loss = 0.00750 (agg) = 0.02609 | Time = 542.9082s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch43in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch43in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch43in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch43in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  42/  60] TrainLoss = 0.02716 ValLoss = 0.02541 TrainTime = 5636.9857s ValTime = 968.9911s
+Epoch #43 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 43/ 60] Iter = [   0/4937] Loss = 0.01938 (agg) = 0.00969 | Time = 2.2386s
+Epoch = [ 43/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02640 | Time = 563.7982s
+Epoch = [ 43/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02681 | Time = 576.5171s
+Epoch = [ 43/ 60] Iter = [1500/4937] Loss = 0.03341 (agg) = 0.02765 | Time = 566.0452s
+Epoch = [ 43/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02744 | Time = 570.4983s
+Epoch = [ 43/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02741 | Time = 551.1769s
+Epoch = [ 43/ 60] Iter = [3000/4937] Loss = 0.08619 (agg) = 0.02773 | Time = 583.0779s
+Epoch = [ 43/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02778 | Time = 574.7439s
+Epoch = [ 43/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02759 | Time = 583.4504s
+Epoch = [ 43/ 60] Iter = [4500/4937] Loss = 0.01059 (agg) = 0.02749 | Time = 560.6659s
+Epoch = [ 43/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2057s
+Epoch = [ 43/ 60] Iter = [ 500/ 863] Loss = 0.02707 (agg) = 0.02503 | Time = 553.0439s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch44in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch44in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch44in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch44in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  43/  60] TrainLoss = 0.02768 ValLoss = 0.02549 TrainTime = 5639.3929s ValTime = 970.5836s
+Epoch #44 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 44/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.1880s
+Epoch = [ 44/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02912 | Time = 565.2522s
+Epoch = [ 44/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.03050 | Time = 566.5751s
+Epoch = [ 44/ 60] Iter = [1500/4937] Loss = 0.02777 (agg) = 0.02900 | Time = 562.1466s
+Epoch = [ 44/ 60] Iter = [2000/4937] Loss = 0.00724 (agg) = 0.02837 | Time = 611.7363s
+Epoch = [ 44/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02808 | Time = 570.6139s
+Epoch = [ 44/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02780 | Time = 582.1559s
+Epoch = [ 44/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02737 | Time = 533.2781s
+Epoch = [ 44/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02753 | Time = 549.8870s
+Epoch = [ 44/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02754 | Time = 574.4600s
+Epoch = [ 44/ 60] Iter = [   0/ 863] Loss = 0.04856 (agg) = 0.02428 | Time = 2.1755s
+Epoch = [ 44/ 60] Iter = [ 500/ 863] Loss = 0.01276 (agg) = 0.02545 | Time = 591.8908s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch45in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch45in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch45in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch45in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  44/  60] TrainLoss = 0.02762 ValLoss = 0.02564 TrainTime = 5643.3132s ValTime = 970.7654s
+Epoch #45 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 45/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2377s
+Epoch = [ 45/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02560 | Time = 552.9824s
+Epoch = [ 45/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02578 | Time = 566.5709s
+Epoch = [ 45/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02582 | Time = 535.1025s
+Epoch = [ 45/ 60] Iter = [2000/4937] Loss = 0.01091 (agg) = 0.02590 | Time = 584.5471s
+Epoch = [ 45/ 60] Iter = [2500/4937] Loss = 0.00436 (agg) = 0.02671 | Time = 577.0904s
+Epoch = [ 45/ 60] Iter = [3000/4937] Loss = 0.05827 (agg) = 0.02723 | Time = 602.6086s
+Epoch = [ 45/ 60] Iter = [3500/4937] Loss = 0.06781 (agg) = 0.02718 | Time = 576.1275s
+Epoch = [ 45/ 60] Iter = [4000/4937] Loss = 0.02450 (agg) = 0.02715 | Time = 578.0094s
+Epoch = [ 45/ 60] Iter = [4500/4937] Loss = 0.03920 (agg) = 0.02719 | Time = 578.4699s
+Epoch = [ 45/ 60] Iter = [   0/ 863] Loss = 0.06850 (agg) = 0.03425 | Time = 2.2228s
+Epoch = [ 45/ 60] Iter = [ 500/ 863] Loss = 0.02913 (agg) = 0.02469 | Time = 567.6430s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch46in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch46in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch46in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch46in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  45/  60] TrainLoss = 0.02683 ValLoss = 0.02608 TrainTime = 5644.3886s ValTime = 970.7724s
+Epoch #46 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 46/ 60] Iter = [   0/4937] Loss = 0.02008 (agg) = 0.01004 | Time = 2.1958s
+Epoch = [ 46/ 60] Iter = [ 500/4937] Loss = 0.01771 (agg) = 0.02835 | Time = 571.1192s
+Epoch = [ 46/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02811 | Time = 599.6887s
+Epoch = [ 46/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02785 | Time = 583.7067s
+Epoch = [ 46/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02809 | Time = 573.9429s
+Epoch = [ 46/ 60] Iter = [2500/4937] Loss = 0.02937 (agg) = 0.02745 | Time = 560.9729s
+Epoch = [ 46/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02741 | Time = 565.6375s
+Epoch = [ 46/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02730 | Time = 589.3103s
+Epoch = [ 46/ 60] Iter = [4000/4937] Loss = 0.09220 (agg) = 0.02726 | Time = 527.3554s
+Epoch = [ 46/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02718 | Time = 581.0833s
+Epoch = [ 46/ 60] Iter = [   0/ 863] Loss = 0.01589 (agg) = 0.00795 | Time = 2.3315s
+Epoch = [ 46/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02582 | Time = 565.7294s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch47in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch47in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch47in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch47in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  46/  60] TrainLoss = 0.02697 ValLoss = 0.02585 TrainTime = 5644.4041s ValTime = 970.3569s
+Epoch #47 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 47/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2536s
+Epoch = [ 47/ 60] Iter = [ 500/4937] Loss = 0.00730 (agg) = 0.02772 | Time = 548.5851s
+Epoch = [ 47/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02688 | Time = 557.7223s
+Epoch = [ 47/ 60] Iter = [1500/4937] Loss = 0.02744 (agg) = 0.02676 | Time = 537.7662s
+Epoch = [ 47/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02660 | Time = 615.5228s
+Epoch = [ 47/ 60] Iter = [2500/4937] Loss = 0.00844 (agg) = 0.02651 | Time = 584.8351s
+Epoch = [ 47/ 60] Iter = [3000/4937] Loss = 0.01662 (agg) = 0.02616 | Time = 582.3839s
+Epoch = [ 47/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02665 | Time = 537.4384s
+Epoch = [ 47/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02687 | Time = 584.6332s
+Epoch = [ 47/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02704 | Time = 580.0375s
+Epoch = [ 47/ 60] Iter = [   0/ 863] Loss = 0.04260 (agg) = 0.02130 | Time = 2.2160s
+Epoch = [ 47/ 60] Iter = [ 500/ 863] Loss = 0.01463 (agg) = 0.02577 | Time = 551.3664s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch48in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch48in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch48in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch48in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  47/  60] TrainLoss = 0.02702 ValLoss = 0.02536 TrainTime = 5654.0294s ValTime = 970.6909s
+Epoch #48 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 48/ 60] Iter = [   0/4937] Loss = 0.01043 (agg) = 0.00521 | Time = 2.1943s
+Epoch = [ 48/ 60] Iter = [ 500/4937] Loss = 0.00577 (agg) = 0.02651 | Time = 551.0847s
+Epoch = [ 48/ 60] Iter = [1000/4937] Loss = 0.04162 (agg) = 0.02733 | Time = 571.6744s
+Epoch = [ 48/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02697 | Time = 547.0995s
+Epoch = [ 48/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02674 | Time = 584.6006s
+Epoch = [ 48/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02666 | Time = 596.8009s
+Epoch = [ 48/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02667 | Time = 598.9839s
+Epoch = [ 48/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02684 | Time = 583.3591s
+Epoch = [ 48/ 60] Iter = [4000/4937] Loss = 0.00549 (agg) = 0.02685 | Time = 592.5684s
+Epoch = [ 48/ 60] Iter = [4500/4937] Loss = 0.01963 (agg) = 0.02692 | Time = 536.2825s
+Epoch = [ 48/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.1993s
+Epoch = [ 48/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02689 | Time = 535.7752s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch49in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch49in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch49in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch49in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  48/  60] TrainLoss = 0.02713 ValLoss = 0.02596 TrainTime = 5647.8427s ValTime = 970.9536s
+Epoch #49 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 49/ 60] Iter = [   0/4937] Loss = 0.07022 (agg) = 0.03511 | Time = 2.1908s
+Epoch = [ 49/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02714 | Time = 556.8506s
+Epoch = [ 49/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02689 | Time = 537.9253s
+Epoch = [ 49/ 60] Iter = [1500/4937] Loss = 0.02455 (agg) = 0.02705 | Time = 570.5988s
+Epoch = [ 49/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02704 | Time = 538.8795s
+Epoch = [ 49/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02659 | Time = 577.1947s
+Epoch = [ 49/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02616 | Time = 597.4772s
+Epoch = [ 49/ 60] Iter = [3500/4937] Loss = 0.01416 (agg) = 0.02636 | Time = 588.3022s
+Epoch = [ 49/ 60] Iter = [4000/4937] Loss = 0.02044 (agg) = 0.02638 | Time = 601.2612s
+Epoch = [ 49/ 60] Iter = [4500/4937] Loss = 0.01484 (agg) = 0.02649 | Time = 563.4520s
+Epoch = [ 49/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2247s
+Epoch = [ 49/ 60] Iter = [ 500/ 863] Loss = 0.02082 (agg) = 0.02449 | Time = 573.8287s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch50in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch50in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch50in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch50in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  49/  60] TrainLoss = 0.0264 ValLoss = 0.02639 TrainTime = 5650.8941s ValTime = 971.8929s
+Epoch #50 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 50/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2345s
+Epoch = [ 50/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02497 | Time = 578.8837s
+Epoch = [ 50/ 60] Iter = [1000/4937] Loss = 0.03878 (agg) = 0.02624 | Time = 590.5398s
+Epoch = [ 50/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02659 | Time = 571.6066s
+Epoch = [ 50/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02648 | Time = 541.4411s
+Epoch = [ 50/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02649 | Time = 576.8479s
+Epoch = [ 50/ 60] Iter = [3000/4937] Loss = 0.01360 (agg) = 0.02631 | Time = 561.1761s
+Epoch = [ 50/ 60] Iter = [3500/4937] Loss = 0.01591 (agg) = 0.02639 | Time = 579.9532s
+Epoch = [ 50/ 60] Iter = [4000/4937] Loss = 0.04011 (agg) = 0.02640 | Time = 568.2905s
+Epoch = [ 50/ 60] Iter = [4500/4937] Loss = 0.01952 (agg) = 0.02664 | Time = 558.1015s
+Epoch = [ 50/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3437s
+Epoch = [ 50/ 60] Iter = [ 500/ 863] Loss = 0.01265 (agg) = 0.02450 | Time = 552.1626s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch51in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch51in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch51in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch51in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  50/  60] TrainLoss = 0.0267 ValLoss = 0.02554 TrainTime = 5653.9292s ValTime = 973.1805s
+Epoch #51 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 51/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2876s
+Epoch = [ 51/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02698 | Time = 589.9547s
+Epoch = [ 51/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02728 | Time = 582.4371s
+Epoch = [ 51/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02676 | Time = 576.5519s
+Epoch = [ 51/ 60] Iter = [2000/4937] Loss = 0.06532 (agg) = 0.02704 | Time = 580.2364s
+Epoch = [ 51/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02660 | Time = 572.1627s
+Epoch = [ 51/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02668 | Time = 564.0582s
+Epoch = [ 51/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02662 | Time = 582.6504s
+Epoch = [ 51/ 60] Iter = [4000/4937] Loss = 0.01233 (agg) = 0.02660 | Time = 580.9958s
+Epoch = [ 51/ 60] Iter = [4500/4937] Loss = 0.01451 (agg) = 0.02657 | Time = 556.4543s
+Epoch = [ 51/ 60] Iter = [   0/ 863] Loss = 0.01244 (agg) = 0.00622 | Time = 2.1763s
+Epoch = [ 51/ 60] Iter = [ 500/ 863] Loss = 0.03845 (agg) = 0.02584 | Time = 551.6485s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch52in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch52in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch52in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch52in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  51/  60] TrainLoss = 0.0268 ValLoss = 0.02624 TrainTime = 5661.7839s ValTime = 973.0808s
+Epoch #52 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 52/ 60] Iter = [   0/4937] Loss = 0.02635 (agg) = 0.01317 | Time = 2.2583s
+Epoch = [ 52/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02570 | Time = 605.6173s
+Epoch = [ 52/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02634 | Time = 586.9301s
+Epoch = [ 52/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02626 | Time = 574.0616s
+Epoch = [ 52/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02653 | Time = 566.8648s
+Epoch = [ 52/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02660 | Time = 562.4826s
+Epoch = [ 52/ 60] Iter = [3000/4937] Loss = 0.06571 (agg) = 0.02626 | Time = 580.1369s
+Epoch = [ 52/ 60] Iter = [3500/4937] Loss = 0.01263 (agg) = 0.02639 | Time = 564.7524s
+Epoch = [ 52/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02636 | Time = 570.3243s
+Epoch = [ 52/ 60] Iter = [4500/4937] Loss = 0.02002 (agg) = 0.02629 | Time = 570.0520s
+Epoch = [ 52/ 60] Iter = [   0/ 863] Loss = 0.00856 (agg) = 0.00428 | Time = 2.2429s
+Epoch = [ 52/ 60] Iter = [ 500/ 863] Loss = 0.02604 (agg) = 0.02661 | Time = 543.0119s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch53in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch53in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch53in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch53in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  52/  60] TrainLoss = 0.02652 ValLoss = 0.02596 TrainTime = 5666.5014s ValTime = 971.8713s
+Epoch #53 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 53/ 60] Iter = [   0/4937] Loss = 0.00840 (agg) = 0.00420 | Time = 2.2649s
+Epoch = [ 53/ 60] Iter = [ 500/4937] Loss = 0.05240 (agg) = 0.02637 | Time = 554.8771s
+Epoch = [ 53/ 60] Iter = [1000/4937] Loss = 0.00680 (agg) = 0.02572 | Time = 541.9714s
+Epoch = [ 53/ 60] Iter = [1500/4937] Loss = 0.01801 (agg) = 0.02588 | Time = 556.1135s
+Epoch = [ 53/ 60] Iter = [2000/4937] Loss = 0.03456 (agg) = 0.02596 | Time = 590.5320s
+Epoch = [ 53/ 60] Iter = [2500/4937] Loss = 0.06944 (agg) = 0.02607 | Time = 573.1329s
+Epoch = [ 53/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02644 | Time = 560.2385s
+Epoch = [ 53/ 60] Iter = [3500/4937] Loss = 0.00135 (agg) = 0.02620 | Time = 575.9809s
+Epoch = [ 53/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02619 | Time = 576.5763s
+Epoch = [ 53/ 60] Iter = [4500/4937] Loss = 0.05598 (agg) = 0.02618 | Time = 596.2634s
+Epoch = [ 53/ 60] Iter = [   0/ 863] Loss = 0.00179 (agg) = 0.00089 | Time = 2.1679s
+Epoch = [ 53/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02474 | Time = 555.0413s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch54in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch54in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch54in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch54in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  53/  60] TrainLoss = 0.02629 ValLoss = 0.02476 TrainTime = 5664.0313s ValTime = 977.2950s
+Epoch #54 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 54/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2314s
+Epoch = [ 54/ 60] Iter = [ 500/4937] Loss = 0.01322 (agg) = 0.02554 | Time = 577.5823s
+Epoch = [ 54/ 60] Iter = [1000/4937] Loss = 0.03789 (agg) = 0.02581 | Time = 572.6185s
+Epoch = [ 54/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02688 | Time = 583.4918s
+Epoch = [ 54/ 60] Iter = [2000/4937] Loss = 0.02466 (agg) = 0.02688 | Time = 574.1595s
+Epoch = [ 54/ 60] Iter = [2500/4937] Loss = 0.00759 (agg) = 0.02683 | Time = 571.6285s
+Epoch = [ 54/ 60] Iter = [3000/4937] Loss = 0.00840 (agg) = 0.02658 | Time = 536.8170s
+Epoch = [ 54/ 60] Iter = [3500/4937] Loss = 0.02076 (agg) = 0.02641 | Time = 602.7649s
+Epoch = [ 54/ 60] Iter = [4000/4937] Loss = 0.01577 (agg) = 0.02626 | Time = 588.5540s
+Epoch = [ 54/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02631 | Time = 588.6664s
+Epoch = [ 54/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3202s
+Epoch = [ 54/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02389 | Time = 552.8068s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch55in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch55in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch55in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch55in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  54/  60] TrainLoss = 0.0264 ValLoss = 0.02508 TrainTime = 5675.1514s ValTime = 978.2441s
+Epoch #55 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 55/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2350s
+Epoch = [ 55/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02458 | Time = 550.6681s
+Epoch = [ 55/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02545 | Time = 614.0183s
+Epoch = [ 55/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02568 | Time = 546.3545s
+Epoch = [ 55/ 60] Iter = [2000/4937] Loss = 0.01642 (agg) = 0.02578 | Time = 552.7464s
+Epoch = [ 55/ 60] Iter = [2500/4937] Loss = 0.00181 (agg) = 0.02559 | Time = 572.8597s
+Epoch = [ 55/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02565 | Time = 592.2651s
+Epoch = [ 55/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02578 | Time = 599.4305s
+Epoch = [ 55/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02601 | Time = 588.1772s
+Epoch = [ 55/ 60] Iter = [4500/4937] Loss = 0.02491 (agg) = 0.02601 | Time = 591.2394s
+Epoch = [ 55/ 60] Iter = [   0/ 863] Loss = 0.00394 (agg) = 0.00197 | Time = 2.1938s
+Epoch = [ 55/ 60] Iter = [ 500/ 863] Loss = 0.03904 (agg) = 0.02568 | Time = 540.9768s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch56in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch56in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch56in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch56in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  55/  60] TrainLoss = 0.02595 ValLoss = 0.02599 TrainTime = 5670.7086s ValTime = 971.7869s
+Epoch #56 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 56/ 60] Iter = [   0/4937] Loss = 0.01426 (agg) = 0.00713 | Time = 2.2425s
+Epoch = [ 56/ 60] Iter = [ 500/4937] Loss = 0.01156 (agg) = 0.02627 | Time = 579.8805s
+Epoch = [ 56/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02611 | Time = 597.5621s
+Epoch = [ 56/ 60] Iter = [1500/4937] Loss = 0.05107 (agg) = 0.02577 | Time = 573.9825s
+Epoch = [ 56/ 60] Iter = [2000/4937] Loss = 0.05206 (agg) = 0.02599 | Time = 526.8910s
+Epoch = [ 56/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02626 | Time = 592.4655s
+Epoch = [ 56/ 60] Iter = [3000/4937] Pass this iteration: brain detected (agg) = 0.02609 | Time = 557.6852s
+Epoch = [ 56/ 60] Iter = [3500/4937] Loss = 0.03353 (agg) = 0.02613 | Time = 557.9981s
+Epoch = [ 56/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02616 | Time = 557.9656s
+Epoch = [ 56/ 60] Iter = [4500/4937] Loss = 0.01202 (agg) = 0.02631 | Time = 607.3853s
+Epoch = [ 56/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2900s
+Epoch = [ 56/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02335 | Time = 554.4004s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch57in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch57in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch57in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch57in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  56/  60] TrainLoss = 0.02608 ValLoss = 0.02532 TrainTime = 5666.2249s ValTime = 972.6703s
+Epoch #57 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 57/ 60] Iter = [   0/4937] Loss = 0.02370 (agg) = 0.01185 | Time = 2.1869s
+Epoch = [ 57/ 60] Iter = [ 500/4937] Loss = 0.03848 (agg) = 0.02759 | Time = 574.1416s
+Epoch = [ 57/ 60] Iter = [1000/4937] Loss = 0.00512 (agg) = 0.02693 | Time = 594.8744s
+Epoch = [ 57/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02712 | Time = 554.4364s
+Epoch = [ 57/ 60] Iter = [2000/4937] Loss = 0.00769 (agg) = 0.02690 | Time = 575.5334s
+Epoch = [ 57/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02688 | Time = 597.2859s
+Epoch = [ 57/ 60] Iter = [3000/4937] Loss = 0.00433 (agg) = 0.02643 | Time = 584.9645s
+Epoch = [ 57/ 60] Iter = [3500/4937] Loss = 0.01336 (agg) = 0.02612 | Time = 609.1670s
+Epoch = [ 57/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02628 | Time = 545.7385s
+Epoch = [ 57/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02626 | Time = 507.4781s
+Epoch = [ 57/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.2482s
+Epoch = [ 57/ 60] Iter = [ 500/ 863] Loss = 0.02310 (agg) = 0.02632 | Time = 582.9858s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch58in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch58in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch58in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch58in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  57/  60] TrainLoss = 0.0262 ValLoss = 0.02543 TrainTime = 5655.0335s ValTime = 971.0062s
+Epoch #58 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 58/ 60] Iter = [   0/4937] Loss = 0.02039 (agg) = 0.01020 | Time = 2.1993s
+Epoch = [ 58/ 60] Iter = [ 500/4937] Pass this iteration: brain detected (agg) = 0.02496 | Time = 559.8745s
+Epoch = [ 58/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02441 | Time = 570.4480s
+Epoch = [ 58/ 60] Iter = [1500/4937] Pass this iteration: brain detected (agg) = 0.02465 | Time = 573.8792s
+Epoch = [ 58/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02518 | Time = 541.4377s
+Epoch = [ 58/ 60] Iter = [2500/4937] Loss = 0.03718 (agg) = 0.02609 | Time = 568.6587s
+Epoch = [ 58/ 60] Iter = [3000/4937] Loss = 0.00409 (agg) = 0.02638 | Time = 631.4570s
+Epoch = [ 58/ 60] Iter = [3500/4937] Pass this iteration: brain detected (agg) = 0.02682 | Time = 591.5367s
+Epoch = [ 58/ 60] Iter = [4000/4937] Loss = 0.01124 (agg) = 0.02680 | Time = 587.6288s
+Epoch = [ 58/ 60] Iter = [4500/4937] Pass this iteration: brain detected (agg) = 0.02675 | Time = 556.6037s
+Epoch = [ 58/ 60] Iter = [   0/ 863] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.3354s
+Epoch = [ 58/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02708 | Time = 587.6669s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch59in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch59in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch59in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch59in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  58/  60] TrainLoss = 0.02653 ValLoss = 0.02501 TrainTime = 5669.7030s ValTime = 972.3123s
+Epoch #59 from pretrained model at epoch 30 ............... test_PromptMR++_helper_moe_rescue_knee ...............
+Epoch = [ 59/ 60] Iter = [   0/4937] Pass this iteration: brain detected (agg) = 0.00000 | Time = 0.1824s
+Epoch = [ 59/ 60] Iter = [ 500/4937] Loss = 0.05705 (agg) = 0.02716 | Time = 553.3895s
+Epoch = [ 59/ 60] Iter = [1000/4937] Pass this iteration: brain detected (agg) = 0.02709 | Time = 536.4518s
+Epoch = [ 59/ 60] Iter = [1500/4937] Loss = 0.03190 (agg) = 0.02676 | Time = 566.4151s
+Epoch = [ 59/ 60] Iter = [2000/4937] Pass this iteration: brain detected (agg) = 0.02660 | Time = 613.8678s
+Epoch = [ 59/ 60] Iter = [2500/4937] Pass this iteration: brain detected (agg) = 0.02639 | Time = 575.7383s
+Epoch = [ 59/ 60] Iter = [3000/4937] Loss = 0.02644 (agg) = 0.02641 | Time = 612.4960s
+Epoch = [ 59/ 60] Iter = [3500/4937] Loss = 0.02223 (agg) = 0.02629 | Time = 570.2915s
+Epoch = [ 59/ 60] Iter = [4000/4937] Pass this iteration: brain detected (agg) = 0.02618 | Time = 561.5498s
+Epoch = [ 59/ 60] Iter = [4500/4937] Loss = 0.01248 (agg) = 0.02607 | Time = 568.8287s
+Epoch = [ 59/ 60] Iter = [   0/ 863] Loss = 0.01949 (agg) = 0.00975 | Time = 2.1979s
+Epoch = [ 59/ 60] Iter = [ 500/ 863] Pass this iteration: brain detected (agg) = 0.02419 | Time = 551.5827s
+loss file saved! ../result/test_PromptMR++_helper_moe_rescue_knee/val_loss_log
+Model saved: model_epoch60in60_brain_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch60in60_brain_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch60in60_knee_acc4.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Model saved: model_epoch60in60_knee_acc8.pt in ../result/test_PromptMR++_helper_moe_rescue_knee/checkpoints
+Epoch = [  59/  60] TrainLoss = 0.02589 ValLoss = 0.02468 TrainTime = 5673.1525s ValTime = 971.2796s
+root@workspace-cu6vx225mbmh-0:~/FastMRI_challenge_sMaRtIfy_ver2#

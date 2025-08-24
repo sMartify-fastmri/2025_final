@@ -1,0 +1,11 @@
+python train_moe_rescue_helper.py \
+  -n 'test_PromptMR++_helper_moe_rescue_brain' \
+  -f True \
+  --enable-hacker False \
+  --save-each-epoch True \
+  --starting-expert 'test_PromptMR++_helper_baseline' \
+  --classifier-name 'dummy' \
+  --classifier-epoch 1 \
+  --classifier-data-path-train '../Data/train/' \
+  --classifier-data-path-val '../Data/val/' \
+  --ignore-brain-or-knee 'knee'

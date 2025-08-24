@@ -1,0 +1,26 @@
+python train_moe.py \
+  -n 'test_PromptMR++_hacker_moe_clutch' \
+  -f True \
+  --enable-hacker True \
+  --save-each-epoch True \
+  --starting-expert 'test_PromptMR++_hacker_baseline' \
+  --classifier-name 'dummy' \
+  --classifier-epoch 1 \
+  --classifier-data-path-train '../Data/train/' \
+  --classifier-data-path-val '../Data/val/' \
+  --call-moe-units True \
+  --call-moe-name 'test_PromptMR++_hacker_moe' \
+  --max-epoch2call 60 \
+  --brain-acc4-epoch2call 60 \
+  --brain-acc8-epoch2call 60 \
+  --knee-acc4-epoch2call 60 \
+  --knee-acc8-epoch2call 60 \
+  --aug_schedule 'constant' \
+  --brain-aug-delay 0 \
+  --knee-aug-delay 0 \
+  --annealing-epoch 0 \
+  --scheduler-start-epoch 15 \
+  --lr 2e-5 \
+  --starting-epoch 30 \
+  -e 35
+  

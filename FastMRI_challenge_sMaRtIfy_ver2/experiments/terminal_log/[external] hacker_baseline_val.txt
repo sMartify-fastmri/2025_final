@@ -1,0 +1,638 @@
+(base) seongsulee@shannon6:~/FastMRI/root/FastMRI_challenge_sMaRtIfy_ver2$ sh hacker_baseline_val.sh
+Generating image masks from train files: 100%|████████████| 340/340 [00:01<00:00, 199.39it/s]
+Generating image masks from val files: 100%|████████████████| 60/60 [00:00<00:00, 201.79it/s]
+Current cuda device:  0
+[WARNING] Model call failed; starting from the first epoch.
+Error message: [Errno 2] No such file or directory: '../result/test_PromptMR++_hacker_baseline_val/checkpoints/best_model.pt'
+Epoch # 0 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  0/ 45] Iter = [   0/4937] Loss = 0.12098 (agg) = 0.12098 | Time = 2.5252s
+Epoch = [  0/ 45] Iter = [ 500/4937] Loss = 0.03725 (agg) = 0.05414 | Time = 932.2483s
+Epoch = [  0/ 45] Iter = [1000/4937] Loss = 0.01307 (agg) = 0.04991 | Time = 945.1542s
+Epoch = [  0/ 45] Iter = [1500/4937] Loss = 0.05182 (agg) = 0.04624 | Time = 986.6590s
+Epoch = [  0/ 45] Iter = [2000/4937] Loss = 0.03017 (agg) = 0.04307 | Time = 991.4592s
+Epoch = [  0/ 45] Iter = [2500/4937] Loss = 0.05480 (agg) = 0.04196 | Time = 1004.5429s
+Epoch = [  0/ 45] Iter = [3000/4937] Loss = 0.03522 (agg) = 0.04052 | Time = 987.1074s
+Epoch = [  0/ 45] Iter = [3500/4937] Loss = 0.00885 (agg) = 0.03930 | Time = 1010.2325s
+Epoch = [  0/ 45] Iter = [4000/4937] Loss = 0.03736 (agg) = 0.03860 | Time = 1000.5415s
+Epoch = [  0/ 45] Iter = [4500/4937] Loss = 0.01346 (agg) = 0.03809 | Time = 1018.8197s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch1in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   0/  45] TrainLoss = 0.03756 ValLoss = 0.04146 TrainTime = 9740.1654s ValTime = 661.9999s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.1348s
+Epoch # 1 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  1/ 45] Iter = [   0/4937] Loss = 0.01531 (agg) = 0.01531 | Time = 2.2923s
+Epoch = [  1/ 45] Iter = [ 500/4937] Loss = 0.01680 (agg) = 0.02806 | Time = 982.3712s
+Epoch = [  1/ 45] Iter = [1000/4937] Loss = 0.00999 (agg) = 0.02905 | Time = 970.3833s
+Epoch = [  1/ 45] Iter = [1500/4937] Loss = 0.01306 (agg) = 0.02969 | Time = 1006.6767s
+Epoch = [  1/ 45] Iter = [2000/4937] Loss = 0.01022 (agg) = 0.03029 | Time = 991.1939s
+Epoch = [  1/ 45] Iter = [2500/4937] Loss = 0.04161 (agg) = 0.03008 | Time = 990.1610s
+Epoch = [  1/ 45] Iter = [3000/4937] Loss = 0.03508 (agg) = 0.03002 | Time = 983.1866s
+Epoch = [  1/ 45] Iter = [3500/4937] Loss = 0.01374 (agg) = 0.02997 | Time = 992.0569s
+Epoch = [  1/ 45] Iter = [4000/4937] Loss = 0.03489 (agg) = 0.02975 | Time = 1005.2446s
+Epoch = [  1/ 45] Iter = [4500/4937] Loss = 0.09923 (agg) = 0.02996 | Time = 996.3333s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch2in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   1/  45] TrainLoss = 0.02982 ValLoss = 0.03907 TrainTime = 9774.6347s ValTime = 647.9142s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0503s
+Epoch # 2 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  2/ 45] Iter = [   0/4937] Loss = 0.04970 (agg) = 0.04970 | Time = 1.5941s
+Epoch = [  2/ 45] Iter = [ 500/4937] Loss = 0.04409 (agg) = 0.02931 | Time = 974.6111s
+Epoch = [  2/ 45] Iter = [1000/4937] Loss = 0.03420 (agg) = 0.02816 | Time = 1006.3921s
+Epoch = [  2/ 45] Iter = [1500/4937] Loss = 0.00912 (agg) = 0.02854 | Time = 1017.0869s
+Epoch = [  2/ 45] Iter = [2000/4937] Loss = 0.01056 (agg) = 0.02853 | Time = 1000.1741s
+Epoch = [  2/ 45] Iter = [2500/4937] Loss = 0.02045 (agg) = 0.02871 | Time = 968.3718s
+Epoch = [  2/ 45] Iter = [3000/4937] Loss = 0.01972 (agg) = 0.02865 | Time = 974.3717s
+Epoch = [  2/ 45] Iter = [3500/4937] Loss = 0.02157 (agg) = 0.02877 | Time = 972.5013s
+Epoch = [  2/ 45] Iter = [4000/4937] Loss = 0.02805 (agg) = 0.02881 | Time = 976.4151s
+Epoch = [  2/ 45] Iter = [4500/4937] Loss = 0.01707 (agg) = 0.02875 | Time = 1009.4424s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch3in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   2/  45] TrainLoss = 0.02854 ValLoss = 0.03768 TrainTime = 9780.1517s ValTime = 612.2383s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0222s
+Epoch # 3 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  3/ 45] Iter = [   0/4937] Loss = 0.00158 (agg) = 0.00158 | Time = 2.2168s
+Epoch = [  3/ 45] Iter = [ 500/4937] Loss = 0.00823 (agg) = 0.02914 | Time = 1013.6105s
+Epoch = [  3/ 45] Iter = [1000/4937] Loss = 0.04759 (agg) = 0.02828 | Time = 1013.2738s
+Epoch = [  3/ 45] Iter = [1500/4937] Loss = 0.01152 (agg) = 0.02819 | Time = 1026.2757s
+Epoch = [  3/ 45] Iter = [2000/4937] Loss = 0.01342 (agg) = 0.02795 | Time = 1014.4008s
+Epoch = [  3/ 45] Iter = [2500/4937] Loss = 0.08400 (agg) = 0.02821 | Time = 990.1897s
+Epoch = [  3/ 45] Iter = [3000/4937] Loss = 0.01121 (agg) = 0.02794 | Time = 998.6813s
+Epoch = [  3/ 45] Iter = [3500/4937] Loss = 0.01310 (agg) = 0.02772 | Time = 998.1122s
+Epoch = [  3/ 45] Iter = [4000/4937] Loss = 0.01128 (agg) = 0.02741 | Time = 967.0226s
+Epoch = [  3/ 45] Iter = [4500/4937] Loss = 0.00795 (agg) = 0.02748 | Time = 973.4164s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch4in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   3/  45] TrainLoss = 0.02778 ValLoss = 0.03729 TrainTime = 9853.0431s ValTime = 645.8929s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0896s
+Epoch # 4 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  4/ 45] Iter = [   0/4937] Loss = 0.01060 (agg) = 0.01060 | Time = 2.2873s
+Epoch = [  4/ 45] Iter = [ 500/4937] Loss = 0.03567 (agg) = 0.02762 | Time = 997.3534s
+Epoch = [  4/ 45] Iter = [1000/4937] Loss = 0.04738 (agg) = 0.02757 | Time = 980.1133s
+Epoch = [  4/ 45] Iter = [1500/4937] Loss = 0.01617 (agg) = 0.02798 | Time = 1010.8727s
+Epoch = [  4/ 45] Iter = [2000/4937] Loss = 0.00703 (agg) = 0.02814 | Time = 971.5365s
+Epoch = [  4/ 45] Iter = [2500/4937] Loss = 0.01709 (agg) = 0.02797 | Time = 985.7659s
+Epoch = [  4/ 45] Iter = [3000/4937] Loss = 0.03943 (agg) = 0.02792 | Time = 990.8595s
+Epoch = [  4/ 45] Iter = [3500/4937] Loss = 0.05700 (agg) = 0.02778 | Time = 992.8600s
+Epoch = [  4/ 45] Iter = [4000/4937] Loss = 0.02063 (agg) = 0.02760 | Time = 1005.3527s
+Epoch = [  4/ 45] Iter = [4500/4937] Loss = 0.00078 (agg) = 0.02749 | Time = 1001.0398s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch5in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   4/  45] TrainLoss = 0.02736 ValLoss = 0.03697 TrainTime = 9803.5406s ValTime = 643.4337s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 10.9719s
+Epoch # 5 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  5/ 45] Iter = [   0/4937] Loss = 0.00661 (agg) = 0.00661 | Time = 2.0506s
+Epoch = [  5/ 45] Iter = [ 500/4937] Loss = 0.01672 (agg) = 0.02521 | Time = 994.6197s
+Epoch = [  5/ 45] Iter = [1000/4937] Loss = 0.01860 (agg) = 0.02533 | Time = 989.4662s
+Epoch = [  5/ 45] Iter = [1500/4937] Loss = 0.00669 (agg) = 0.02626 | Time = 1011.7532s
+Epoch = [  5/ 45] Iter = [2000/4937] Loss = 0.03415 (agg) = 0.02682 | Time = 993.3961s
+Epoch = [  5/ 45] Iter = [2500/4937] Loss = 0.01155 (agg) = 0.02685 | Time = 1005.0580s
+Epoch = [  5/ 45] Iter = [3000/4937] Loss = 0.01329 (agg) = 0.02676 | Time = 987.3555s
+Epoch = [  5/ 45] Iter = [3500/4937] Loss = 0.01197 (agg) = 0.02665 | Time = 993.1455s
+Epoch = [  5/ 45] Iter = [4000/4937] Loss = 0.01144 (agg) = 0.02675 | Time = 973.9361s
+Epoch = [  5/ 45] Iter = [4500/4937] Loss = 0.07992 (agg) = 0.02692 | Time = 981.7271s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch6in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   5/  45] TrainLoss = 0.02676 ValLoss = 0.03655 TrainTime = 9796.4075s ValTime = 643.6504s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 10.9757s
+Epoch # 6 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  6/ 45] Iter = [   0/4937] Loss = 0.07674 (agg) = 0.07674 | Time = 1.6070s
+Epoch = [  6/ 45] Iter = [ 500/4937] Loss = 0.05235 (agg) = 0.02733 | Time = 977.8809s
+Epoch = [  6/ 45] Iter = [1000/4937] Loss = 0.05592 (agg) = 0.02662 | Time = 998.3610s
+Epoch = [  6/ 45] Iter = [1500/4937] Loss = 0.11888 (agg) = 0.02726 | Time = 992.0050s
+Epoch = [  6/ 45] Iter = [2000/4937] Loss = 0.00752 (agg) = 0.02736 | Time = 982.1260s
+Epoch = [  6/ 45] Iter = [2500/4937] Loss = 0.02979 (agg) = 0.02718 | Time = 973.8352s
+Epoch = [  6/ 45] Iter = [3000/4937] Loss = 0.00690 (agg) = 0.02730 | Time = 992.0115s
+Epoch = [  6/ 45] Iter = [3500/4937] Loss = 0.01075 (agg) = 0.02700 | Time = 979.6059s
+Epoch = [  6/ 45] Iter = [4000/4937] Loss = 0.04504 (agg) = 0.02689 | Time = 994.9671s
+Epoch = [  6/ 45] Iter = [4500/4937] Loss = 0.01547 (agg) = 0.02686 | Time = 975.6866s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch7in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   6/  45] TrainLoss = 0.02671 ValLoss = 0.03645 TrainTime = 9745.6241s ValTime = 645.0400s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0004s
+Epoch # 7 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  7/ 45] Iter = [   0/4937] Loss = 0.02192 (agg) = 0.02192 | Time = 2.2207s
+Epoch = [  7/ 45] Iter = [ 500/4937] Loss = 0.00000 (agg) = 0.02565 | Time = 1002.8529s
+Epoch = [  7/ 45] Iter = [1000/4937] Loss = 0.00817 (agg) = 0.02579 | Time = 1008.3145s
+Epoch = [  7/ 45] Iter = [1500/4937] Loss = 0.00851 (agg) = 0.02529 | Time = 1008.5781s
+Epoch = [  7/ 45] Iter = [2000/4937] Loss = 0.01942 (agg) = 0.02584 | Time = 1005.3429s
+Epoch = [  7/ 45] Iter = [2500/4937] Loss = 0.08670 (agg) = 0.02586 | Time = 988.8349s
+Epoch = [  7/ 45] Iter = [3000/4937] Loss = 0.07841 (agg) = 0.02591 | Time = 974.1427s
+Epoch = [  7/ 45] Iter = [3500/4937] Loss = 0.01204 (agg) = 0.02600 | Time = 983.9489s
+Epoch = [  7/ 45] Iter = [4000/4937] Loss = 0.03394 (agg) = 0.02592 | Time = 984.6648s
+Epoch = [  7/ 45] Iter = [4500/4937] Loss = 0.13125 (agg) = 0.02610 | Time = 966.1594s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch8in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   7/  45] TrainLoss = 0.02622 ValLoss = 0.0363 TrainTime = 9758.8094s ValTime = 628.3502s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0150s
+Epoch # 8 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  8/ 45] Iter = [   0/4937] Loss = 0.00879 (agg) = 0.00879 | Time = 2.7738s
+Epoch = [  8/ 45] Iter = [ 500/4937] Loss = 0.00981 (agg) = 0.02440 | Time = 978.3406s
+Epoch = [  8/ 45] Iter = [1000/4937] Loss = 0.06761 (agg) = 0.02522 | Time = 991.5705s
+Epoch = [  8/ 45] Iter = [1500/4937] Loss = 0.00508 (agg) = 0.02542 | Time = 954.3529s
+Epoch = [  8/ 45] Iter = [2000/4937] Loss = 0.03033 (agg) = 0.02577 | Time = 971.0701s
+Epoch = [  8/ 45] Iter = [2500/4937] Loss = 0.03939 (agg) = 0.02573 | Time = 969.2365s
+Epoch = [  8/ 45] Iter = [3000/4937] Loss = 0.08519 (agg) = 0.02602 | Time = 987.2193s
+Epoch = [  8/ 45] Iter = [3500/4937] Loss = 0.01606 (agg) = 0.02607 | Time = 997.0411s
+Epoch = [  8/ 45] Iter = [4000/4937] Loss = 0.00796 (agg) = 0.02609 | Time = 993.4768s
+Epoch = [  8/ 45] Iter = [4500/4937] Loss = 0.00537 (agg) = 0.02610 | Time = 1007.0667s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch9in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   8/  45] TrainLoss = 0.02608 ValLoss = 0.03599 TrainTime = 9719.6447s ValTime = 633.2359s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0396s
+Epoch # 9 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [  9/ 45] Iter = [   0/4937] Loss = 0.00099 (agg) = 0.00099 | Time = 2.9198s
+Epoch = [  9/ 45] Iter = [ 500/4937] Loss = 0.00856 (agg) = 0.02730 | Time = 982.8373s
+Epoch = [  9/ 45] Iter = [1000/4937] Loss = 0.00708 (agg) = 0.02595 | Time = 1027.0683s
+Epoch = [  9/ 45] Iter = [1500/4937] Loss = 0.05452 (agg) = 0.02614 | Time = 995.4895s
+Epoch = [  9/ 45] Iter = [2000/4937] Loss = 0.03955 (agg) = 0.02631 | Time = 956.2890s
+Epoch = [  9/ 45] Iter = [2500/4937] Loss = 0.01056 (agg) = 0.02655 | Time = 988.3860s
+Epoch = [  9/ 45] Iter = [3000/4937] Loss = 0.02909 (agg) = 0.02621 | Time = 986.4498s
+Epoch = [  9/ 45] Iter = [3500/4937] Loss = 0.01799 (agg) = 0.02627 | Time = 957.5190s
+Epoch = [  9/ 45] Iter = [4000/4937] Loss = 0.08677 (agg) = 0.02597 | Time = 982.0451s
+Epoch = [  9/ 45] Iter = [4500/4937] Loss = 0.04343 (agg) = 0.02618 | Time = 970.4374s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch10in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [   9/  45] TrainLoss = 0.02613 ValLoss = 0.03603 TrainTime = 9710.5738s ValTime = 625.1406s
+Epoch #10 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 10/ 45] Iter = [   0/4937] Loss = 0.00299 (agg) = 0.00299 | Time = 2.5585s
+Epoch = [ 10/ 45] Iter = [ 500/4937] Loss = 0.01958 (agg) = 0.02570 | Time = 963.8158s
+Epoch = [ 10/ 45] Iter = [1000/4937] Loss = 0.01979 (agg) = 0.02666 | Time = 982.6751s
+Epoch = [ 10/ 45] Iter = [1500/4937] Loss = 0.00977 (agg) = 0.02658 | Time = 965.4690s
+Epoch = [ 10/ 45] Iter = [2000/4937] Loss = 0.07446 (agg) = 0.02671 | Time = 962.5609s
+Epoch = [ 10/ 45] Iter = [2500/4937] Loss = 0.05717 (agg) = 0.02653 | Time = 970.1355s
+Epoch = [ 10/ 45] Iter = [3000/4937] Loss = 0.00903 (agg) = 0.02628 | Time = 1005.3542s
+Epoch = [ 10/ 45] Iter = [3500/4937] Loss = 0.04097 (agg) = 0.02624 | Time = 980.2028s
+Epoch = [ 10/ 45] Iter = [4000/4937] Loss = 0.01019 (agg) = 0.02600 | Time = 995.6046s
+Epoch = [ 10/ 45] Iter = [4500/4937] Loss = 0.01530 (agg) = 0.02610 | Time = 983.3508s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch11in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  10/  45] TrainLoss = 0.02598 ValLoss = 0.03577 TrainTime = 9686.7426s ValTime = 619.0999s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0089s
+Epoch #11 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 11/ 45] Iter = [   0/4937] Loss = 0.00538 (agg) = 0.00538 | Time = 2.0624s
+Epoch = [ 11/ 45] Iter = [ 500/4937] Loss = 0.00571 (agg) = 0.02569 | Time = 964.1245s
+Epoch = [ 11/ 45] Iter = [1000/4937] Loss = 0.01502 (agg) = 0.02573 | Time = 1008.1516s
+Epoch = [ 11/ 45] Iter = [1500/4937] Loss = 0.02672 (agg) = 0.02575 | Time = 996.4990s
+Epoch = [ 11/ 45] Iter = [2000/4937] Loss = 0.03745 (agg) = 0.02554 | Time = 981.5190s
+Epoch = [ 11/ 45] Iter = [2500/4937] Loss = 0.02499 (agg) = 0.02557 | Time = 973.8968s
+Epoch = [ 11/ 45] Iter = [3000/4937] Loss = 0.03686 (agg) = 0.02540 | Time = 979.8467s
+Epoch = [ 11/ 45] Iter = [3500/4937] Loss = 0.00654 (agg) = 0.02562 | Time = 979.3787s
+Epoch = [ 11/ 45] Iter = [4000/4937] Loss = 0.03592 (agg) = 0.02579 | Time = 975.5544s
+Epoch = [ 11/ 45] Iter = [4500/4937] Loss = 0.01354 (agg) = 0.02572 | Time = 972.8161s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch12in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  11/  45] TrainLoss = 0.02588 ValLoss = 0.03581 TrainTime = 9679.0200s ValTime = 653.7456s
+Epoch #12 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 12/ 45] Iter = [   0/4937] Loss = 0.01768 (agg) = 0.01768 | Time = 1.5830s
+Epoch = [ 12/ 45] Iter = [ 500/4937] Loss = 0.00320 (agg) = 0.02655 | Time = 991.8169s
+Epoch = [ 12/ 45] Iter = [1000/4937] Loss = 0.11316 (agg) = 0.02588 | Time = 1015.6266s
+Epoch = [ 12/ 45] Iter = [1500/4937] Loss = 0.01022 (agg) = 0.02556 | Time = 995.9467s
+Epoch = [ 12/ 45] Iter = [2000/4937] Loss = 0.00100 (agg) = 0.02517 | Time = 983.1830s
+Epoch = [ 12/ 45] Iter = [2500/4937] Loss = 0.00587 (agg) = 0.02527 | Time = 986.7340s
+Epoch = [ 12/ 45] Iter = [3000/4937] Loss = 0.05579 (agg) = 0.02535 | Time = 984.4346s
+Epoch = [ 12/ 45] Iter = [3500/4937] Loss = 0.00730 (agg) = 0.02567 | Time = 990.1287s
+Epoch = [ 12/ 45] Iter = [4000/4937] Loss = 0.01564 (agg) = 0.02574 | Time = 970.0500s
+Epoch = [ 12/ 45] Iter = [4500/4937] Loss = 0.02082 (agg) = 0.02607 | Time = 979.7964s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch13in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  12/  45] TrainLoss = 0.02595 ValLoss = 0.03566 TrainTime = 9746.6661s ValTime = 648.4845s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 10.9926s
+Epoch #13 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 13/ 45] Iter = [   0/4937] Loss = 0.00510 (agg) = 0.00510 | Time = 2.1033s
+Epoch = [ 13/ 45] Iter = [ 500/4937] Loss = 0.00055 (agg) = 0.02741 | Time = 994.0324s
+Epoch = [ 13/ 45] Iter = [1000/4937] Loss = 0.06656 (agg) = 0.02661 | Time = 1015.5935s
+Epoch = [ 13/ 45] Iter = [1500/4937] Loss = 0.03912 (agg) = 0.02599 | Time = 966.8946s
+Epoch = [ 13/ 45] Iter = [2000/4937] Loss = 0.05521 (agg) = 0.02639 | Time = 966.6478s
+Epoch = [ 13/ 45] Iter = [2500/4937] Loss = 0.02301 (agg) = 0.02629 | Time = 985.3431s
+Epoch = [ 13/ 45] Iter = [3000/4937] Loss = 0.04548 (agg) = 0.02632 | Time = 974.3453s
+Epoch = [ 13/ 45] Iter = [3500/4937] Loss = 0.02824 (agg) = 0.02618 | Time = 970.0317s
+Epoch = [ 13/ 45] Iter = [4000/4937] Loss = 0.12113 (agg) = 0.02601 | Time = 951.4073s
+Epoch = [ 13/ 45] Iter = [4500/4937] Loss = 0.01374 (agg) = 0.02582 | Time = 955.2167s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch14in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  13/  45] TrainLoss = 0.02572 ValLoss = 0.03553 TrainTime = 9637.3567s ValTime = 642.5650s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 10.9344s
+Epoch #14 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 14/ 45] Iter = [   0/4937] Loss = 0.01159 (agg) = 0.01159 | Time = 2.3641s
+Epoch = [ 14/ 45] Iter = [ 500/4937] Loss = 0.00735 (agg) = 0.02508 | Time = 985.4293s
+Epoch = [ 14/ 45] Iter = [1000/4937] Loss = 0.02499 (agg) = 0.02509 | Time = 990.4081s
+Epoch = [ 14/ 45] Iter = [1500/4937] Loss = 0.00911 (agg) = 0.02537 | Time = 977.7559s
+Epoch = [ 14/ 45] Iter = [2000/4937] Loss = 0.01107 (agg) = 0.02535 | Time = 983.3726s
+Epoch = [ 14/ 45] Iter = [2500/4937] Loss = 0.00920 (agg) = 0.02552 | Time = 983.9996s
+Epoch = [ 14/ 45] Iter = [3000/4937] Loss = 0.00960 (agg) = 0.02565 | Time = 983.2081s
+Epoch = [ 14/ 45] Iter = [3500/4937] Loss = 0.01330 (agg) = 0.02559 | Time = 971.1619s
+Epoch = [ 14/ 45] Iter = [4000/4937] Loss = 0.00724 (agg) = 0.02561 | Time = 966.0631s
+Epoch = [ 14/ 45] Iter = [4500/4937] Loss = 0.03108 (agg) = 0.02552 | Time = 968.8304s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch15in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  14/  45] TrainLoss = 0.02552 ValLoss = 0.03564 TrainTime = 9661.8722s ValTime = 639.2483s
+Epoch #15 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 15/ 45] Iter = [   0/4937] Loss = 0.00334 (agg) = 0.00334 | Time = 2.4885s
+Epoch = [ 15/ 45] Iter = [ 500/4937] Loss = 0.00000 (agg) = 0.02613 | Time = 1006.0171s
+Epoch = [ 15/ 45] Iter = [1000/4937] Loss = 0.01358 (agg) = 0.02581 | Time = 1013.5122s
+Epoch = [ 15/ 45] Iter = [1500/4937] Loss = 0.00084 (agg) = 0.02562 | Time = 980.6039s
+Epoch = [ 15/ 45] Iter = [2000/4937] Loss = 0.00595 (agg) = 0.02541 | Time = 974.1006s
+Epoch = [ 15/ 45] Iter = [2500/4937] Loss = 0.00457 (agg) = 0.02518 | Time = 964.4036s
+Epoch = [ 15/ 45] Iter = [3000/4937] Loss = 0.01455 (agg) = 0.02513 | Time = 964.3437s
+Epoch = [ 15/ 45] Iter = [3500/4937] Loss = 0.01648 (agg) = 0.02506 | Time = 973.5619s
+Epoch = [ 15/ 45] Iter = [4000/4937] Loss = 0.05019 (agg) = 0.02519 | Time = 963.7618s
+Epoch = [ 15/ 45] Iter = [4500/4937] Loss = 0.01731 (agg) = 0.02537 | Time = 959.1096s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch16in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  15/  45] TrainLoss = 0.02546 ValLoss = 0.03544 TrainTime = 9642.9439s ValTime = 656.6739s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0529s
+Epoch #16 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 16/ 45] Iter = [   0/4937] Loss = 0.00632 (agg) = 0.00632 | Time = 1.8748s
+Epoch = [ 16/ 45] Iter = [ 500/4937] Loss = 0.04908 (agg) = 0.02293 | Time = 1008.4399s
+Epoch = [ 16/ 45] Iter = [1000/4937] Loss = 0.01084 (agg) = 0.02457 | Time = 986.0142s
+Epoch = [ 16/ 45] Iter = [1500/4937] Loss = 0.05980 (agg) = 0.02481 | Time = 983.5565s
+Epoch = [ 16/ 45] Iter = [2000/4937] Loss = 0.02690 (agg) = 0.02526 | Time = 980.5269s
+Epoch = [ 16/ 45] Iter = [2500/4937] Loss = 0.02087 (agg) = 0.02524 | Time = 970.2252s
+Epoch = [ 16/ 45] Iter = [3000/4937] Loss = 0.01152 (agg) = 0.02542 | Time = 981.0859s
+Epoch = [ 16/ 45] Iter = [3500/4937] Loss = 0.01262 (agg) = 0.02526 | Time = 993.4507s
+Epoch = [ 16/ 45] Iter = [4000/4937] Loss = 0.01821 (agg) = 0.02517 | Time = 983.8504s
+Epoch = [ 16/ 45] Iter = [4500/4937] Loss = 0.00988 (agg) = 0.02508 | Time = 963.3482s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch17in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  16/  45] TrainLoss = 0.02504 ValLoss = 0.03508 TrainTime = 9690.3608s ValTime = 638.8611s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.2502s
+Epoch #17 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 17/ 45] Iter = [   0/4937] Loss = 0.00045 (agg) = 0.00045 | Time = 1.9771s
+Epoch = [ 17/ 45] Iter = [ 500/4937] Loss = 0.00041 (agg) = 0.02483 | Time = 999.1434s
+Epoch = [ 17/ 45] Iter = [1000/4937] Loss = 0.00222 (agg) = 0.02493 | Time = 986.1217s
+Epoch = [ 17/ 45] Iter = [1500/4937] Loss = 0.00012 (agg) = 0.02519 | Time = 1010.9341s
+Epoch = [ 17/ 45] Iter = [2000/4937] Loss = 0.01454 (agg) = 0.02505 | Time = 977.4127s
+Epoch = [ 17/ 45] Iter = [2500/4937] Loss = 0.03670 (agg) = 0.02501 | Time = 966.9155s
+Epoch = [ 17/ 45] Iter = [3000/4937] Loss = 0.03175 (agg) = 0.02480 | Time = 974.0828s
+Epoch = [ 17/ 45] Iter = [3500/4937] Loss = 0.02893 (agg) = 0.02485 | Time = 952.7782s
+Epoch = [ 17/ 45] Iter = [4000/4937] Loss = 0.00203 (agg) = 0.02477 | Time = 978.8812s
+Epoch = [ 17/ 45] Iter = [4500/4937] Loss = 0.01810 (agg) = 0.02489 | Time = 979.0888s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch18in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  17/  45] TrainLoss = 0.02468 ValLoss = 0.03503 TrainTime = 9686.7469s ValTime = 653.4399s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0183s
+Epoch #18 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 18/ 45] Iter = [   0/4937] Loss = 0.00057 (agg) = 0.00057 | Time = 2.9649s
+Epoch = [ 18/ 45] Iter = [ 500/4937] Loss = 0.01135 (agg) = 0.02304 | Time = 978.5479s
+Epoch = [ 18/ 45] Iter = [1000/4937] Loss = 0.01617 (agg) = 0.02398 | Time = 999.7150s
+Epoch = [ 18/ 45] Iter = [1500/4937] Loss = 0.00417 (agg) = 0.02458 | Time = 977.0118s
+Epoch = [ 18/ 45] Iter = [2000/4937] Loss = 0.05360 (agg) = 0.02480 | Time = 973.7386s
+Epoch = [ 18/ 45] Iter = [2500/4937] Loss = 0.05893 (agg) = 0.02516 | Time = 986.1774s
+Epoch = [ 18/ 45] Iter = [3000/4937] Loss = 0.01615 (agg) = 0.02532 | Time = 984.1122s
+Epoch = [ 18/ 45] Iter = [3500/4937] Loss = 0.03569 (agg) = 0.02531 | Time = 985.0924s
+Epoch = [ 18/ 45] Iter = [4000/4937] Loss = 0.00712 (agg) = 0.02515 | Time = 956.2994s
+Epoch = [ 18/ 45] Iter = [4500/4937] Loss = 0.02231 (agg) = 0.02497 | Time = 984.5124s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch19in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  18/  45] TrainLoss = 0.02481 ValLoss = 0.035 TrainTime = 9682.3889s ValTime = 634.1528s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 14.6992s
+Epoch #19 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 19/ 45] Iter = [   0/4937] Loss = 0.01287 (agg) = 0.01287 | Time = 1.8316s
+Epoch = [ 19/ 45] Iter = [ 500/4937] Loss = 0.03746 (agg) = 0.02522 | Time = 1000.4337s
+Epoch = [ 19/ 45] Iter = [1000/4937] Loss = 0.00681 (agg) = 0.02504 | Time = 996.2826s
+Epoch = [ 19/ 45] Iter = [1500/4937] Loss = 0.01089 (agg) = 0.02547 | Time = 991.6230s
+Epoch = [ 19/ 45] Iter = [2000/4937] Loss = 0.02523 (agg) = 0.02495 | Time = 1006.1618s
+Epoch = [ 19/ 45] Iter = [2500/4937] Loss = 0.04338 (agg) = 0.02487 | Time = 1016.0751s
+Epoch = [ 19/ 45] Iter = [3000/4937] Loss = 0.00814 (agg) = 0.02457 | Time = 1025.5634s
+Epoch = [ 19/ 45] Iter = [3500/4937] Loss = 0.04478 (agg) = 0.02455 | Time = 1023.9898s
+Epoch = [ 19/ 45] Iter = [4000/4937] Loss = 0.01068 (agg) = 0.02462 | Time = 1006.4038s
+Epoch = [ 19/ 45] Iter = [4500/4937] Loss = 0.01583 (agg) = 0.02467 | Time = 1026.8311s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch20in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  19/  45] TrainLoss = 0.02471 ValLoss = 0.03499 TrainTime = 9966.9634s ValTime = 606.8913s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0917s
+Epoch #20 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 20/ 45] Iter = [   0/4937] Loss = 0.00209 (agg) = 0.00209 | Time = 2.2256s
+Epoch = [ 20/ 45] Iter = [ 500/4937] Loss = 0.02855 (agg) = 0.02627 | Time = 964.4648s
+Epoch = [ 20/ 45] Iter = [1000/4937] Loss = 0.01345 (agg) = 0.02596 | Time = 968.9425s
+Epoch = [ 20/ 45] Iter = [1500/4937] Loss = 0.06851 (agg) = 0.02505 | Time = 997.6251s
+Epoch = [ 20/ 45] Iter = [2000/4937] Loss = 0.00895 (agg) = 0.02476 | Time = 1024.4279s
+Epoch = [ 20/ 45] Iter = [2500/4937] Loss = 0.00246 (agg) = 0.02462 | Time = 1033.8574s
+Epoch = [ 20/ 45] Iter = [3000/4937] Loss = 0.01149 (agg) = 0.02452 | Time = 1036.0095s
+Epoch = [ 20/ 45] Iter = [3500/4937] Loss = 0.10848 (agg) = 0.02472 | Time = 1038.4663s
+Epoch = [ 20/ 45] Iter = [4000/4937] Loss = 0.00755 (agg) = 0.02477 | Time = 1038.7719s
+Epoch = [ 20/ 45] Iter = [4500/4937] Loss = 0.05215 (agg) = 0.02492 | Time = 1025.0018s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch21in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  20/  45] TrainLoss = 0.0249 ValLoss = 0.03499 TrainTime = 10034.0482s ValTime = 594.6961s
+Epoch #21 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 21/ 45] Iter = [   0/4937] Loss = 0.01292 (agg) = 0.01292 | Time = 2.0123s
+Epoch = [ 21/ 45] Iter = [ 500/4937] Loss = 0.01102 (agg) = 0.02415 | Time = 991.4047s
+Epoch = [ 21/ 45] Iter = [1000/4937] Loss = 0.01320 (agg) = 0.02409 | Time = 990.7110s
+Epoch = [ 21/ 45] Iter = [1500/4937] Loss = 0.01002 (agg) = 0.02409 | Time = 1017.7840s
+Epoch = [ 21/ 45] Iter = [2000/4937] Loss = 0.04322 (agg) = 0.02387 | Time = 1017.1619s
+Epoch = [ 21/ 45] Iter = [2500/4937] Loss = 0.02336 (agg) = 0.02363 | Time = 1039.7478s
+Epoch = [ 21/ 45] Iter = [3000/4937] Loss = 0.01985 (agg) = 0.02396 | Time = 1028.9379s
+Epoch = [ 21/ 45] Iter = [3500/4937] Loss = 0.09354 (agg) = 0.02436 | Time = 1033.0366s
+Epoch = [ 21/ 45] Iter = [4000/4937] Loss = 0.04077 (agg) = 0.02461 | Time = 1044.9226s
+Epoch = [ 21/ 45] Iter = [4500/4937] Loss = 0.01459 (agg) = 0.02472 | Time = 1040.0281s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch22in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  21/  45] TrainLoss = 0.02464 ValLoss = 0.03496 TrainTime = 10132.8316s ValTime = 571.0514s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0683s
+Epoch #22 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 22/ 45] Iter = [   0/4937] Loss = 0.03541 (agg) = 0.03541 | Time = 1.8264s
+Epoch = [ 22/ 45] Iter = [ 500/4937] Loss = 0.02245 (agg) = 0.02299 | Time = 982.8978s
+Epoch = [ 22/ 45] Iter = [1000/4937] Loss = 0.01515 (agg) = 0.02354 | Time = 1002.5928s
+Epoch = [ 22/ 45] Iter = [1500/4937] Loss = 0.00491 (agg) = 0.02430 | Time = 1015.7147s
+Epoch = [ 22/ 45] Iter = [2000/4937] Loss = 0.02207 (agg) = 0.02441 | Time = 1037.4578s
+Epoch = [ 22/ 45] Iter = [2500/4937] Loss = 0.04152 (agg) = 0.02471 | Time = 1022.4548s
+Epoch = [ 22/ 45] Iter = [3000/4937] Loss = 0.02718 (agg) = 0.02472 | Time = 1050.4785s
+Epoch = [ 22/ 45] Iter = [3500/4937] Loss = 0.02464 (agg) = 0.02459 | Time = 1036.1658s
+Epoch = [ 22/ 45] Iter = [4000/4937] Loss = 0.01283 (agg) = 0.02481 | Time = 1013.2895s
+Epoch = [ 22/ 45] Iter = [4500/4937] Loss = 0.02620 (agg) = 0.02466 | Time = 1063.8355s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch23in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  22/  45] TrainLoss = 0.02467 ValLoss = 0.03499 TrainTime = 10140.1020s ValTime = 575.5662s
+Epoch #23 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 23/ 45] Iter = [   0/4937] Loss = 0.01604 (agg) = 0.01604 | Time = 1.9247s
+Epoch = [ 23/ 45] Iter = [ 500/4937] Loss = 0.05063 (agg) = 0.02560 | Time = 1017.1976s
+Epoch = [ 23/ 45] Iter = [1000/4937] Loss = 0.01918 (agg) = 0.02561 | Time = 1080.5678s
+Epoch = [ 23/ 45] Iter = [1500/4937] Loss = 0.00829 (agg) = 0.02548 | Time = 1025.4627s
+Epoch = [ 23/ 45] Iter = [2000/4937] Loss = 0.00764 (agg) = 0.02475 | Time = 1094.1481s
+Epoch = [ 23/ 45] Iter = [2500/4937] Loss = 0.03723 (agg) = 0.02470 | Time = 1064.5765s
+Epoch = [ 23/ 45] Iter = [3000/4937] Loss = 0.01007 (agg) = 0.02475 | Time = 1034.1674s
+Epoch = [ 23/ 45] Iter = [3500/4937] Loss = 0.01950 (agg) = 0.02464 | Time = 1082.3689s
+Epoch = [ 23/ 45] Iter = [4000/4937] Loss = 0.01203 (agg) = 0.02472 | Time = 1044.4539s
+Epoch = [ 23/ 45] Iter = [4500/4937] Loss = 0.00966 (agg) = 0.02471 | Time = 1028.7300s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch24in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  23/  45] TrainLoss = 0.02461 ValLoss = 0.03497 TrainTime = 10379.3243s ValTime = 577.5248s
+Epoch #24 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 24/ 45] Iter = [   0/4937] Loss = 0.00938 (agg) = 0.00938 | Time = 1.9205s
+Epoch = [ 24/ 45] Iter = [ 500/4937] Loss = 0.01117 (agg) = 0.02515 | Time = 979.7505s
+Epoch = [ 24/ 45] Iter = [1000/4937] Loss = 0.01527 (agg) = 0.02353 | Time = 1012.0620s
+Epoch = [ 24/ 45] Iter = [1500/4937] Loss = 0.00451 (agg) = 0.02320 | Time = 1018.3848s
+Epoch = [ 24/ 45] Iter = [2000/4937] Loss = 0.01781 (agg) = 0.02371 | Time = 1027.2415s
+Epoch = [ 24/ 45] Iter = [2500/4937] Loss = 0.01087 (agg) = 0.02442 | Time = 1019.9624s
+Epoch = [ 24/ 45] Iter = [3000/4937] Loss = 0.00670 (agg) = 0.02447 | Time = 1028.5398s
+Epoch = [ 24/ 45] Iter = [3500/4937] Loss = 0.01932 (agg) = 0.02437 | Time = 1017.9687s
+Epoch = [ 24/ 45] Iter = [4000/4937] Loss = 0.03275 (agg) = 0.02431 | Time = 1020.4418s
+Epoch = [ 24/ 45] Iter = [4500/4937] Loss = 0.00876 (agg) = 0.02445 | Time = 1024.0640s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch25in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  24/  45] TrainLoss = 0.02447 ValLoss = 0.03497 TrainTime = 10047.5116s ValTime = 691.6438s
+Epoch #25 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 25/ 45] Iter = [   0/4937] Loss = 0.01296 (agg) = 0.01296 | Time = 1.8311s
+Epoch = [ 25/ 45] Iter = [ 500/4937] Loss = 0.05390 (agg) = 0.02527 | Time = 1055.2504s
+Epoch = [ 25/ 45] Iter = [1000/4937] Loss = 0.00985 (agg) = 0.02595 | Time = 1073.0448s
+Epoch = [ 25/ 45] Iter = [1500/4937] Loss = 0.02857 (agg) = 0.02499 | Time = 1082.1757s
+Epoch = [ 25/ 45] Iter = [2000/4937] Loss = 0.01467 (agg) = 0.02492 | Time = 1078.6093s
+Epoch = [ 25/ 45] Iter = [2500/4937] Loss = 0.03421 (agg) = 0.02497 | Time = 1084.4317s
+Epoch = [ 25/ 45] Iter = [3000/4937] Loss = 0.02869 (agg) = 0.02482 | Time = 1080.2490s
+Epoch = [ 25/ 45] Iter = [3500/4937] Loss = 0.04075 (agg) = 0.02484 | Time = 1080.6414s
+Epoch = [ 25/ 45] Iter = [4000/4937] Loss = 0.02379 (agg) = 0.02450 | Time = 1085.9023s
+Epoch = [ 25/ 45] Iter = [4500/4937] Loss = 0.04530 (agg) = 0.02460 | Time = 1063.2816s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch26in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  25/  45] TrainLoss = 0.02455 ValLoss = 0.03493 TrainTime = 10621.2031s ValTime = 706.3413s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.3500s
+Epoch #26 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 26/ 45] Iter = [   0/4937] Loss = 0.01922 (agg) = 0.01922 | Time = 2.4935s
+Epoch = [ 26/ 45] Iter = [ 500/4937] Loss = 0.04503 (agg) = 0.02598 | Time = 1058.8946s
+Epoch = [ 26/ 45] Iter = [1000/4937] Loss = 0.09643 (agg) = 0.02520 | Time = 1033.6124s
+Epoch = [ 26/ 45] Iter = [1500/4937] Loss = 0.00660 (agg) = 0.02506 | Time = 1025.2751s
+Epoch = [ 26/ 45] Iter = [2000/4937] Loss = 0.01776 (agg) = 0.02497 | Time = 1022.4142s
+Epoch = [ 26/ 45] Iter = [2500/4937] Loss = 0.01583 (agg) = 0.02483 | Time = 1018.4509s
+Epoch = [ 26/ 45] Iter = [3000/4937] Loss = 0.02287 (agg) = 0.02459 | Time = 1042.6480s
+Epoch = [ 26/ 45] Iter = [3500/4937] Loss = 0.01292 (agg) = 0.02463 | Time = 1036.2923s
+Epoch = [ 26/ 45] Iter = [4000/4937] Loss = 0.01145 (agg) = 0.02443 | Time = 1030.5170s
+Epoch = [ 26/ 45] Iter = [4500/4937] Loss = 0.00900 (agg) = 0.02445 | Time = 1033.5180s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch27in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  26/  45] TrainLoss = 0.02442 ValLoss = 0.03495 TrainTime = 10195.6365s ValTime = 576.4359s
+Epoch #27 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 27/ 45] Iter = [   0/4937] Loss = 0.02030 (agg) = 0.02030 | Time = 1.6374s
+Epoch = [ 27/ 45] Iter = [ 500/4937] Loss = 0.01065 (agg) = 0.02403 | Time = 964.3656s
+Epoch = [ 27/ 45] Iter = [1000/4937] Loss = 0.02540 (agg) = 0.02391 | Time = 980.2411s
+Epoch = [ 27/ 45] Iter = [1500/4937] Loss = 0.01934 (agg) = 0.02401 | Time = 999.2741s
+Epoch = [ 27/ 45] Iter = [2000/4937] Loss = 0.05356 (agg) = 0.02393 | Time = 992.6644s
+Epoch = [ 27/ 45] Iter = [2500/4937] Loss = 0.05472 (agg) = 0.02444 | Time = 982.6546s
+Epoch = [ 27/ 45] Iter = [3000/4937] Loss = 0.05460 (agg) = 0.02430 | Time = 980.3245s
+Epoch = [ 27/ 45] Iter = [3500/4937] Loss = 0.01433 (agg) = 0.02424 | Time = 1004.8388s
+Epoch = [ 27/ 45] Iter = [4000/4937] Loss = 0.01057 (agg) = 0.02442 | Time = 987.9666s
+Epoch = [ 27/ 45] Iter = [4500/4937] Loss = 0.04832 (agg) = 0.02445 | Time = 974.4549s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch28in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  27/  45] TrainLoss = 0.02425 ValLoss = 0.03489 TrainTime = 9736.4017s ValTime = 594.2240s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0376s
+Epoch #28 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 28/ 45] Iter = [   0/4937] Loss = 0.06918 (agg) = 0.06918 | Time = 1.7085s
+Epoch = [ 28/ 45] Iter = [ 500/4937] Loss = 0.00831 (agg) = 0.02393 | Time = 972.1258s
+Epoch = [ 28/ 45] Iter = [1000/4937] Loss = 0.07711 (agg) = 0.02440 | Time = 964.9091s
+Epoch = [ 28/ 45] Iter = [1500/4937] Loss = 0.02047 (agg) = 0.02453 | Time = 974.0042s
+Epoch = [ 28/ 45] Iter = [2000/4937] Loss = 0.00625 (agg) = 0.02488 | Time = 957.0571s
+Epoch = [ 28/ 45] Iter = [2500/4937] Loss = 0.01096 (agg) = 0.02476 | Time = 966.5502s
+Epoch = [ 28/ 45] Iter = [3000/4937] Loss = 0.01430 (agg) = 0.02483 | Time = 980.7079s
+Epoch = [ 28/ 45] Iter = [3500/4937] Loss = 0.02386 (agg) = 0.02446 | Time = 1028.7888s
+Epoch = [ 28/ 45] Iter = [4000/4937] Loss = 0.07057 (agg) = 0.02441 | Time = 1003.7100s
+Epoch = [ 28/ 45] Iter = [4500/4937] Loss = 0.01291 (agg) = 0.02420 | Time = 1012.9386s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch29in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  28/  45] TrainLoss = 0.02428 ValLoss = 0.0349 TrainTime = 9720.1470s ValTime = 556.0762s
+Epoch #29 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 29/ 45] Iter = [   0/4937] Loss = 0.00543 (agg) = 0.00543 | Time = 2.1829s
+Epoch = [ 29/ 45] Iter = [ 500/4937] Loss = 0.02509 (agg) = 0.02457 | Time = 959.9957s
+Epoch = [ 29/ 45] Iter = [1000/4937] Loss = 0.02612 (agg) = 0.02466 | Time = 963.6380s
+Epoch = [ 29/ 45] Iter = [1500/4937] Loss = 0.01301 (agg) = 0.02473 | Time = 974.0121s
+Epoch = [ 29/ 45] Iter = [2000/4937] Loss = 0.04352 (agg) = 0.02449 | Time = 969.8031s
+Epoch = [ 29/ 45] Iter = [2500/4937] Loss = 0.01202 (agg) = 0.02435 | Time = 969.7062s
+Epoch = [ 29/ 45] Iter = [3000/4937] Loss = 0.03469 (agg) = 0.02446 | Time = 987.9625s
+Epoch = [ 29/ 45] Iter = [3500/4937] Loss = 0.02621 (agg) = 0.02425 | Time = 1036.5726s
+Epoch = [ 29/ 45] Iter = [4000/4937] Loss = 0.00962 (agg) = 0.02423 | Time = 1011.3922s
+Epoch = [ 29/ 45] Iter = [4500/4937] Loss = 0.00149 (agg) = 0.02421 | Time = 998.5631s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch30in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  29/  45] TrainLoss = 0.02421 ValLoss = 0.03488 TrainTime = 9747.5650s ValTime = 566.4577s
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@NewRecord@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ForwardTime = 11.0290s
+Epoch #30 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 30/ 45] Iter = [   0/4937] Loss = 0.00572 (agg) = 0.00572 | Time = 2.2389s
+Epoch = [ 30/ 45] Iter = [ 500/4937] Loss = 0.03785 (agg) = 0.02383 | Time = 972.6743s
+Epoch = [ 30/ 45] Iter = [1000/4937] Loss = 0.01669 (agg) = 0.02470 | Time = 983.3880s
+Epoch = [ 30/ 45] Iter = [1500/4937] Loss = 0.03771 (agg) = 0.02462 | Time = 966.3215s
+Epoch = [ 30/ 45] Iter = [2000/4937] Loss = 0.06789 (agg) = 0.02434 | Time = 961.9369s
+Epoch = [ 30/ 45] Iter = [2500/4937] Loss = 0.00919 (agg) = 0.02461 | Time = 976.8706s
+Epoch = [ 30/ 45] Iter = [3000/4937] Loss = 0.02498 (agg) = 0.02446 | Time = 982.5379s
+Epoch = [ 30/ 45] Iter = [3500/4937] Loss = 0.05713 (agg) = 0.02429 | Time = 1021.0749s
+Epoch = [ 30/ 45] Iter = [4000/4937] Loss = 0.01567 (agg) = 0.02412 | Time = 1020.2039s
+Epoch = [ 30/ 45] Iter = [4500/4937] Loss = 0.00551 (agg) = 0.02415 | Time = 998.6264s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch31in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  30/  45] TrainLoss = 0.02414 ValLoss = 0.03491 TrainTime = 9752.7936s ValTime = 582.1277s
+Epoch #31 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 31/ 45] Iter = [   0/4937] Loss = 0.02139 (agg) = 0.02139 | Time = 1.9650s
+Epoch = [ 31/ 45] Iter = [ 500/4937] Loss = 0.00725 (agg) = 0.02441 | Time = 981.3693s
+Epoch = [ 31/ 45] Iter = [1000/4937] Loss = 0.00096 (agg) = 0.02457 | Time = 960.1512s
+Epoch = [ 31/ 45] Iter = [1500/4937] Loss = 0.01146 (agg) = 0.02448 | Time = 972.1032s
+Epoch = [ 31/ 45] Iter = [2000/4937] Loss = 0.03644 (agg) = 0.02448 | Time = 972.8214s
+Epoch = [ 31/ 45] Iter = [2500/4937] Loss = 0.00626 (agg) = 0.02423 | Time = 985.2902s
+Epoch = [ 31/ 45] Iter = [3000/4937] Loss = 0.00478 (agg) = 0.02425 | Time = 1001.8366s
+Epoch = [ 31/ 45] Iter = [3500/4937] Loss = 0.00113 (agg) = 0.02429 | Time = 1027.4257s
+Epoch = [ 31/ 45] Iter = [4000/4937] Loss = 0.01287 (agg) = 0.02432 | Time = 994.0124s
+Epoch = [ 31/ 45] Iter = [4500/4937] Loss = 0.02232 (agg) = 0.02429 | Time = 986.4396s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch32in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  31/  45] TrainLoss = 0.02413 ValLoss = 0.0349 TrainTime = 9747.2718s ValTime = 539.2486s
+Epoch #32 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 32/ 45] Iter = [   0/4937] Loss = 0.00618 (agg) = 0.00618 | Time = 2.6041s
+Epoch = [ 32/ 45] Iter = [ 500/4937] Loss = 0.01450 (agg) = 0.02207 | Time = 969.3181s
+Epoch = [ 32/ 45] Iter = [1000/4937] Loss = 0.03336 (agg) = 0.02324 | Time = 971.2182s
+Epoch = [ 32/ 45] Iter = [1500/4937] Loss = 0.00368 (agg) = 0.02372 | Time = 977.9597s
+Epoch = [ 32/ 45] Iter = [2000/4937] Loss = 0.00724 (agg) = 0.02370 | Time = 969.3955s
+Epoch = [ 32/ 45] Iter = [2500/4937] Loss = 0.00154 (agg) = 0.02371 | Time = 956.8120s
+Epoch = [ 32/ 45] Iter = [3000/4937] Loss = 0.01907 (agg) = 0.02393 | Time = 989.9664s
+Epoch = [ 32/ 45] Iter = [3500/4937] Loss = 0.00337 (agg) = 0.02383 | Time = 1015.1901s
+Epoch = [ 32/ 45] Iter = [4000/4937] Loss = 0.01931 (agg) = 0.02405 | Time = 994.8481s
+Epoch = [ 32/ 45] Iter = [4500/4937] Loss = 0.03430 (agg) = 0.02415 | Time = 975.9238s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch33in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  32/  45] TrainLoss = 0.02411 ValLoss = 0.03491 TrainTime = 9672.3910s ValTime = 547.1866s
+Epoch #33 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 33/ 45] Iter = [   0/4937] Loss = 0.02966 (agg) = 0.02966 | Time = 2.0407s
+Epoch = [ 33/ 45] Iter = [ 500/4937] Loss = 0.00670 (agg) = 0.02506 | Time = 978.4395s
+Epoch = [ 33/ 45] Iter = [1000/4937] Loss = 0.00092 (agg) = 0.02407 | Time = 975.3514s
+Epoch = [ 33/ 45] Iter = [1500/4937] Loss = 0.06247 (agg) = 0.02427 | Time = 957.5961s
+Epoch = [ 33/ 45] Iter = [2000/4937] Loss = 0.00741 (agg) = 0.02402 | Time = 964.6050s
+Epoch = [ 33/ 45] Iter = [2500/4937] Loss = 0.01511 (agg) = 0.02407 | Time = 948.5462s
+Epoch = [ 33/ 45] Iter = [3000/4937] Loss = 0.01063 (agg) = 0.02391 | Time = 1102.2924s
+Epoch = [ 33/ 45] Iter = [3500/4937] Loss = 0.00030 (agg) = 0.02384 | Time = 1094.3070s
+Epoch = [ 33/ 45] Iter = [4000/4937] Loss = 0.04511 (agg) = 0.02391 | Time = 1114.4101s
+Epoch = [ 33/ 45] Iter = [4500/4937] Loss = 0.00278 (agg) = 0.02401 | Time = 1109.9249s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch34in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  33/  45] TrainLoss = 0.0241 ValLoss = 0.03493 TrainTime = 10224.3604s ValTime = 603.7264s
+Epoch #34 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 34/ 45] Iter = [   0/4937] Loss = 0.07635 (agg) = 0.07635 | Time = 2.1702s
+Epoch = [ 34/ 45] Iter = [ 500/4937] Loss = 0.02389 (agg) = 0.02255 | Time = 1100.8686s
+Epoch = [ 34/ 45] Iter = [1000/4937] Loss = 0.01112 (agg) = 0.02386 | Time = 1087.0959s
+Epoch = [ 34/ 45] Iter = [1500/4937] Loss = 0.10817 (agg) = 0.02399 | Time = 1067.9149s
+Epoch = [ 34/ 45] Iter = [2000/4937] Loss = 0.01472 (agg) = 0.02403 | Time = 1057.9053s
+Epoch = [ 34/ 45] Iter = [2500/4937] Loss = 0.04467 (agg) = 0.02415 | Time = 1092.3121s
+Epoch = [ 34/ 45] Iter = [3000/4937] Loss = 0.01285 (agg) = 0.02405 | Time = 1090.1747s
+Epoch = [ 34/ 45] Iter = [3500/4937] Loss = 0.00504 (agg) = 0.02408 | Time = 1077.1395s
+Epoch = [ 34/ 45] Iter = [4000/4937] Loss = 0.00939 (agg) = 0.02425 | Time = 1099.4002s
+Epoch = [ 34/ 45] Iter = [4500/4937] Loss = 0.05119 (agg) = 0.02413 | Time = 1124.6208s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch35in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  34/  45] TrainLoss = 0.024 ValLoss = 0.03493 TrainTime = 10771.2653s ValTime = 606.1144s
+Epoch #35 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 35/ 45] Iter = [   0/4937] Loss = 0.03856 (agg) = 0.03856 | Time = 1.8026s
+Epoch = [ 35/ 45] Iter = [ 500/4937] Loss = 0.00255 (agg) = 0.02413 | Time = 1109.0358s
+Epoch = [ 35/ 45] Iter = [1000/4937] Loss = 0.03076 (agg) = 0.02359 | Time = 1083.3112s
+Epoch = [ 35/ 45] Iter = [1500/4937] Loss = 0.01088 (agg) = 0.02361 | Time = 1076.1139s
+Epoch = [ 35/ 45] Iter = [2000/4937] Loss = 0.01974 (agg) = 0.02388 | Time = 1075.8070s
+Epoch = [ 35/ 45] Iter = [2500/4937] Loss = 0.03589 (agg) = 0.02405 | Time = 1085.4999s
+Epoch = [ 35/ 45] Iter = [3000/4937] Loss = 0.01366 (agg) = 0.02378 | Time = 1083.7356s
+Epoch = [ 35/ 45] Iter = [3500/4937] Loss = 0.02176 (agg) = 0.02385 | Time = 1104.6878s
+Epoch = [ 35/ 45] Iter = [4000/4937] Loss = 0.07311 (agg) = 0.02405 | Time = 1133.0683s
+Epoch = [ 35/ 45] Iter = [4500/4937] Loss = 0.00620 (agg) = 0.02402 | Time = 1076.1808s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch36in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  35/  45] TrainLoss = 0.0241 ValLoss = 0.03492 TrainTime = 10691.3859s ValTime = 557.7810s
+Epoch #36 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 36/ 45] Iter = [   0/4937] Loss = 0.00406 (agg) = 0.00406 | Time = 2.6631s
+Epoch = [ 36/ 45] Iter = [ 500/4937] Loss = 0.01195 (agg) = 0.02387 | Time = 981.4847s
+Epoch = [ 36/ 45] Iter = [1000/4937] Loss = 0.01052 (agg) = 0.02329 | Time = 980.0285s
+Epoch = [ 36/ 45] Iter = [1500/4937] Loss = 0.01837 (agg) = 0.02374 | Time = 969.9637s
+Epoch = [ 36/ 45] Iter = [2000/4937] Loss = 0.03728 (agg) = 0.02419 | Time = 975.0626s
+Epoch = [ 36/ 45] Iter = [2500/4937] Loss = 0.02525 (agg) = 0.02453 | Time = 950.6903s
+Epoch = [ 36/ 45] Iter = [3000/4937] Loss = 0.00039 (agg) = 0.02452 | Time = 966.8837s
+Epoch = [ 36/ 45] Iter = [3500/4937] Loss = 0.01424 (agg) = 0.02444 | Time = 994.4391s
+Epoch = [ 36/ 45] Iter = [4000/4937] Loss = 0.01380 (agg) = 0.02422 | Time = 997.1407s
+Epoch = [ 36/ 45] Iter = [4500/4937] Loss = 0.01129 (agg) = 0.02425 | Time = 971.4017s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch37in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  36/  45] TrainLoss = 0.02411 ValLoss = 0.03492 TrainTime = 9636.3415s ValTime = 563.2618s
+Epoch #37 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 37/ 45] Iter = [   0/4937] Loss = 0.01467 (agg) = 0.01467 | Time = 1.4869s
+Epoch = [ 37/ 45] Iter = [ 500/4937] Loss = 0.01302 (agg) = 0.02277 | Time = 965.0818s
+Epoch = [ 37/ 45] Iter = [1000/4937] Loss = 0.00094 (agg) = 0.02508 | Time = 935.9250s
+Epoch = [ 37/ 45] Iter = [1500/4937] Loss = 0.03153 (agg) = 0.02428 | Time = 959.4010s
+Epoch = [ 37/ 45] Iter = [2000/4937] Loss = 0.02059 (agg) = 0.02393 | Time = 935.3054s
+Epoch = [ 37/ 45] Iter = [2500/4937] Loss = 0.00280 (agg) = 0.02408 | Time = 954.1896s
+Epoch = [ 37/ 45] Iter = [3000/4937] Loss = 0.00508 (agg) = 0.02400 | Time = 954.7361s
+Epoch = [ 37/ 45] Iter = [3500/4937] Loss = 0.01611 (agg) = 0.02407 | Time = 981.8765s
+Epoch = [ 37/ 45] Iter = [4000/4937] Loss = 0.00607 (agg) = 0.02422 | Time = 1018.8923s
+Epoch = [ 37/ 45] Iter = [4500/4937] Loss = 0.00321 (agg) = 0.02433 | Time = 1003.8516s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch38in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  37/  45] TrainLoss = 0.02397 ValLoss = 0.03493 TrainTime = 9591.4825s ValTime = 568.1410s
+Epoch #38 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 38/ 45] Iter = [   0/4937] Loss = 0.02230 (agg) = 0.02230 | Time = 2.4765s
+Epoch = [ 38/ 45] Iter = [ 500/4937] Loss = 0.03896 (agg) = 0.02478 | Time = 953.5633s
+Epoch = [ 38/ 45] Iter = [1000/4937] Loss = 0.00272 (agg) = 0.02425 | Time = 961.5248s
+Epoch = [ 38/ 45] Iter = [1500/4937] Loss = 0.01302 (agg) = 0.02458 | Time = 972.1510s
+Epoch = [ 38/ 45] Iter = [2000/4937] Loss = 0.01248 (agg) = 0.02472 | Time = 960.7534s
+Epoch = [ 38/ 45] Iter = [2500/4937] Loss = 0.01945 (agg) = 0.02435 | Time = 967.3270s
+Epoch = [ 38/ 45] Iter = [3000/4937] Loss = 0.00647 (agg) = 0.02412 | Time = 967.8883s
+Epoch = [ 38/ 45] Iter = [3500/4937] Loss = 0.07352 (agg) = 0.02407 | Time = 969.3623s
+Epoch = [ 38/ 45] Iter = [4000/4937] Loss = 0.01179 (agg) = 0.02405 | Time = 994.1922s
+Epoch = [ 38/ 45] Iter = [4500/4937] Loss = 0.01450 (agg) = 0.02403 | Time = 985.1499s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch39in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  38/  45] TrainLoss = 0.02407 ValLoss = 0.03493 TrainTime = 9586.5589s ValTime = 556.0439s
+Epoch #39 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 39/ 45] Iter = [   0/4937] Loss = 0.00470 (agg) = 0.00470 | Time = 2.5961s
+Epoch = [ 39/ 45] Iter = [ 500/4937] Loss = 0.07405 (agg) = 0.02378 | Time = 962.6523s
+Epoch = [ 39/ 45] Iter = [1000/4937] Loss = 0.01832 (agg) = 0.02420 | Time = 966.0586s
+Epoch = [ 39/ 45] Iter = [1500/4937] Loss = 0.01775 (agg) = 0.02409 | Time = 958.9880s
+Epoch = [ 39/ 45] Iter = [2000/4937] Loss = 0.01006 (agg) = 0.02376 | Time = 968.4436s
+Epoch = [ 39/ 45] Iter = [2500/4937] Loss = 0.00814 (agg) = 0.02367 | Time = 981.4109s
+Epoch = [ 39/ 45] Iter = [3000/4937] Loss = 0.03753 (agg) = 0.02427 | Time = 962.2309s
+Epoch = [ 39/ 45] Iter = [3500/4937] Loss = 0.01328 (agg) = 0.02418 | Time = 1013.6912s
+Epoch = [ 39/ 45] Iter = [4000/4937] Loss = 0.01170 (agg) = 0.02415 | Time = 1008.3107s
+Epoch = [ 39/ 45] Iter = [4500/4937] Loss = 0.01299 (agg) = 0.02411 | Time = 999.9101s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch40in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  39/  45] TrainLoss = 0.02409 ValLoss = 0.03493 TrainTime = 9676.2898s ValTime = 558.2261s
+Epoch #40 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 40/ 45] Iter = [   0/4937] Loss = 0.00873 (agg) = 0.00873 | Time = 2.3770s
+Epoch = [ 40/ 45] Iter = [ 500/4937] Loss = 0.00903 (agg) = 0.02280 | Time = 957.0690s
+Epoch = [ 40/ 45] Iter = [1000/4937] Loss = 0.02080 (agg) = 0.02311 | Time = 957.6782s
+Epoch = [ 40/ 45] Iter = [1500/4937] Loss = 0.00722 (agg) = 0.02333 | Time = 956.2446s
+Epoch = [ 40/ 45] Iter = [2000/4937] Loss = 0.01310 (agg) = 0.02365 | Time = 960.3474s
+Epoch = [ 40/ 45] Iter = [2500/4937] Loss = 0.00481 (agg) = 0.02359 | Time = 960.7215s
+Epoch = [ 40/ 45] Iter = [3000/4937] Loss = 0.00888 (agg) = 0.02342 | Time = 955.4545s
+Epoch = [ 40/ 45] Iter = [3500/4937] Loss = 0.02136 (agg) = 0.02364 | Time = 995.0745s
+Epoch = [ 40/ 45] Iter = [4000/4937] Loss = 0.00546 (agg) = 0.02397 | Time = 1026.8311s
+Epoch = [ 40/ 45] Iter = [4500/4937] Loss = 0.02004 (agg) = 0.02403 | Time = 1028.1936s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch41in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  40/  45] TrainLoss = 0.02396 ValLoss = 0.03494 TrainTime = 9663.4873s ValTime = 586.5542s
+Epoch #41 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 41/ 45] Iter = [   0/4937] Loss = 0.03369 (agg) = 0.03369 | Time = 1.5213s
+Epoch = [ 41/ 45] Iter = [ 500/4937] Loss = 0.00677 (agg) = 0.02281 | Time = 975.5543s
+Epoch = [ 41/ 45] Iter = [1000/4937] Loss = 0.00553 (agg) = 0.02375 | Time = 974.7465s
+Epoch = [ 41/ 45] Iter = [1500/4937] Loss = 0.01981 (agg) = 0.02438 | Time = 957.8370s
+Epoch = [ 41/ 45] Iter = [2000/4937] Loss = 0.09198 (agg) = 0.02446 | Time = 974.4779s
+Epoch = [ 41/ 45] Iter = [2500/4937] Loss = 0.01458 (agg) = 0.02428 | Time = 988.4015s
+Epoch = [ 41/ 45] Iter = [3000/4937] Loss = 0.00781 (agg) = 0.02429 | Time = 968.7614s
+Epoch = [ 41/ 45] Iter = [3500/4937] Loss = 0.02307 (agg) = 0.02419 | Time = 981.4310s
+Epoch = [ 41/ 45] Iter = [4000/4937] Loss = 0.02547 (agg) = 0.02431 | Time = 992.7990s
+Epoch = [ 41/ 45] Iter = [4500/4937] Loss = 0.01273 (agg) = 0.02430 | Time = 1002.1684s
+loss file saved! ../result/test_PromptMR++_hacker_baseline_val/val_loss_log
+Model saved: model_epoch42in45.pt in ../result/test_PromptMR++_hacker_baseline_val/checkpoints
+Epoch = [  41/  45] TrainLoss = 0.02405 ValLoss = 0.03493 TrainTime = 9680.2866s ValTime = 635.1727s
+Epoch #42 ............... test_PromptMR++_hacker_baseline_val ...............
+Epoch = [ 42/ 45] Iter = [   0/4937] Loss = 0.01676 (agg) = 0.01676 | Time = 1.9005s
