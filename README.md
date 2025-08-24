@@ -163,6 +163,7 @@ MRI(Magnetic Resonance Imaging)는 자기장을 이용하여 인체 내부 구�
         ```
     - 코드 내부 `reduction` 파라미터 변경 **(16 → 2)**
     : 메모리 사용량을 최소한으로 늘리면서 `feat_0`의 큰 감소폭에 따른 표현력 약화를 완화
+
         ![image](docs/reduction.png)
 
 - `sens_map` 추정 시 per-coil 연산 옵션으로 최대 메모리 제어(원본 코드에서 지원)
@@ -320,3 +321,4 @@ MRI(Magnetic Resonance Imaging)는 자기장을 이용하여 인체 내부 구�
 
 
 [[2](https://arxiv.org/abs/2106.14947)] Fabian, Z., Heckel, R. and Soltanolkotabi, M., 2021, July. Data augmentation for deep learning based accelerated MRI reconstruction with limited data. In International Conference on Machine Learning (pp. 3057-3067). PMLR.
+
