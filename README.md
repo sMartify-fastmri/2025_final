@@ -13,12 +13,12 @@ English $\rightarrow$ `./README_en.md`
 
 #### [Seongsu Lee](https://linktr.ee/seongsulee)
 * Undergrad. @ Department of Physics Education | $\tiny\textsf{Mar 2020 - Current}$
-Double major in Biological Sciences, Computer Science & Engineering
+   * Double major in Biological Sciences, Computer Science & Engineering
 * Email | dltjdtn0727@snu.ac.kr
 
 #### Woojin Lee
 * Undergrad. @ Department of Materials Science and Engineering | $\tiny\textsf{Mar 2021 - Current}$
-Double major in Electrical & Computer Engineering
+   * Double major in Electrical & Computer Engineering
 * Email | eugene5759@snu.ac.kr
 
 ---
@@ -317,5 +317,6 @@ MRI(Magnetic Resonance Imaging)는 자기장을 이용하여 인체 내부 구�
 ## 5. References
 
 [[1](https://link.springer.com/chapter/10.1007/978-3-031-73226-3_10)] Xin, B., Ye, M., Axel, L. and Metaxas, D.N., 2024, September. Rethinking deep unrolled model for accelerated MRI reconstruction. In European Conference on Computer Vision (pp. 164-181). Cham: Springer Nature Switzerland.
+
 
 [[2](https://arxiv.org/abs/2106.14947)] Fabian, Z., Heckel, R. and Soltanolkotabi, M., 2021, July. Data augmentation for deep learning based accelerated MRI reconstruction with limited data. In International Conference on Machine Learning (pp. 3057-3067). PMLR.
